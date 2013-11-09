@@ -1,4 +1,13 @@
 #################
+## IDEA
+#################
+knowledgeTest.iml
+.iml
+.idea/
+target/
+main/resources/jetty/
+
+#################
 ## Eclipse
 #################
 
