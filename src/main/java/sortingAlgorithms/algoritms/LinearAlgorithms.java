@@ -1,4 +1,4 @@
-package sortingAlgoritms.algoritms;
+package sortingAlgorithms.algoritms;
 
 import java.util.ArrayList;
 
@@ -45,9 +45,12 @@ public interface LinearAlgorithms {
     public ArrayList<Integer> getRadixSorting(ArrayList<Integer> list);
 
     /**
-     * MergeSort -  is an O(n log n) comparison-based sorting algorithm. Most implementations produce
-     * a stable sort, which means that the implementation preserves the input order of equal elements
-     * in the sorted output. [http://en.wikipedia.org/wiki/MergeSort]
+     * MergeSort - Sortable sequence consisting of n elements is divided into two smaller sequences.
+     * Recursively sort each of the sequences obtained in the same manner. When the two smaller sorted
+     * sequences, merge, alternately choosing from them the smallest term.
+     * [http://vie2004.blogspot.com/2011/12/blog-post.html#]
+     *
+     * Advantages: the algorithm is effective in a large amount of input array (more than 1000).
      *
      * @param list - contain array with unsorted integer values;
      * @return ArrayList<Integer>

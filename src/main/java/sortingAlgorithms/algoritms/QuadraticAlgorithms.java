@@ -1,4 +1,4 @@
-package sortingAlgoritms.algoritms;
+package sortingAlgorithms.algoritms;
 
 import java.util.ArrayList;
 
@@ -8,13 +8,12 @@ import java.util.ArrayList;
 public interface QuadraticAlgorithms {
 
     /**
-     * Selection sort - is a sorting algorithm, specifically an in-place comparison sort. It has O(n*n)
-     * time complexity, making it inefficient on large lists, and generally performs worse than the
-     * similar insertion sort. Selection sort is noted for its simplicity, and it has performance in
-     * certain situations, particularly where auxiliary memory is limited.
-     * [http://en.wikipedia.org/wiki/Selection_sort]
+     * Selection sort - is a sorting algorithm, specifically an in-place comparison sort. The basic
+     * idea is to look at each element in the array, and for each element look at all remaining elements
+     * to see if there is something smaller that should be in this position. If there is, exchange the
+     * two values. [http://www.leepoint.net/notes-java/data/arrays/31arrayselectionsort.html]
      *
-     * @param list - contain array with unsorted integer values;
+     * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
     public ArrayList<Integer> getSelectionSorting(ArrayList<Integer> list);
@@ -28,7 +27,9 @@ public interface QuadraticAlgorithms {
      * Although the algorithm is simple, most of the other sorting algorithms are more efficient for
      * large lists. [http://en.wikipedia.org/wiki/Bubble_Sort]
      *
-     * @param list- contain array with unsorted integer values;
+     * Disadvantages: not effective on a large amount of input array (more than 100).
+     *
+     * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
     public ArrayList<Integer> getBubbleSorting(ArrayList<Integer> list);
@@ -47,7 +48,7 @@ public interface QuadraticAlgorithms {
      * - In-place; i.e., only requires a constant amount O(1) of additional memory space,
      * - Online; i.e., can sort a list as it receives it. [http://en.wikipedia.org/wiki/Insert_sort]
      *
-     * @param list- contain array with unsorted integer values;
+     * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
     public ArrayList<Integer> getInsertSorting(ArrayList<Integer> list);
@@ -59,9 +60,8 @@ public interface QuadraticAlgorithms {
      * out-of-place elements into position faster than a simple nearest neighbor exchange.
      * [http://en.wikipedia.org/wiki/Shellsort]
      *
-     * @param list- contain array with unsorted integer values;
+     * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
     public ArrayList<Integer> getShellSorting(ArrayList<Integer> list);
-
 }

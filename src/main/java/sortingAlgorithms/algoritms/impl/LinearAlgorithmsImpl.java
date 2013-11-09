@@ -1,6 +1,6 @@
-package sortingAlgoritms.algoritms.impl;
+package sortingAlgorithms.algoritms.impl;
 
-import sortingAlgoritms.algoritms.LinearAlgorithms;
+import sortingAlgorithms.algoritms.LinearAlgorithms;
 
 import java.util.ArrayList;
 
@@ -51,6 +51,9 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      */
     @Override
     public ArrayList<Integer> getMergeSorting(ArrayList<Integer> list) {
-        return null;
+
+        assert list != null : "arrayList not specified!";
+
+        return list;
     }
 }
