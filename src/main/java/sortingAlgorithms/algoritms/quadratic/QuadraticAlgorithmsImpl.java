@@ -1,6 +1,8 @@
-package sortingAlgorithms.algoritms.impl;
+package sortingAlgorithms.algoritms.quadratic;
 
 import sortingAlgorithms.algoritms.QuadraticAlgorithms;
+import sortingAlgorithms.util.AppUtil;
+import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
 
@@ -8,6 +10,8 @@ import java.util.ArrayList;
  * Implementation of Quadratic algorithms.
  */
 public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
+
+    AppUtil appUtil = new AppUtilImpl();
 
     /**
      * Selection sort
@@ -17,7 +21,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      */
     public ArrayList<Integer> getSelectionSorting(ArrayList<Integer> list) {
 
-        assert list != null : "arrayList not specified!";
+        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
 
         // moving forward through array
         for (int i = 0; i < list.size() - 1; i++) {
@@ -27,9 +31,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
 
                 if (list.get(i) > list.get(j)) {
                     // exchange the two values if there is
-                    int temp = list.get(i);
-                    list.set(i, list.get(j));
-                    list.set(j, temp);
+                    appUtil.swap(list, i, j);
                 }
             }
         }
@@ -44,7 +46,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      */
     public ArrayList<Integer> getBubbleSorting(ArrayList<Integer> list) {
 
-        assert list != null : "arrayList not specified!";
+        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
 
         // moving forward through array.
         for (int i = list.size() - 1; i >= 2; i--) {
@@ -56,9 +58,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
 
                 // swap places if the order of  elements are not correct and mark swap.
                 if (list.get(j) > list.get(j + 1)) {
-                    int temp = list.get(j);
-                    list.set(j, list.get(j + 1));
-                    list.set(j + 1, temp);
+                    appUtil.swap(list, j, j + 1);
                     sorted = false;
                 }
             }
@@ -79,7 +79,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
     @Override
     public ArrayList<Integer> getInsertSorting(ArrayList<Integer> list) {
 
-        assert list != null : "arrayList not specified!";
+        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
 
         int i, j, temp;
 
@@ -89,9 +89,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
 
             // moving element back, while element bigger than others.
             while (j > 0 && list.get(j - 1) > list.get(j)) {
-                temp = list.get(j);
-                list.set(j, list.get(j - 1));
-                list.set(j - 1, temp);
+                appUtil.swap(list, j, j - 1);
                 j--;
             }
         }
@@ -107,7 +105,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
     @Override
     public ArrayList<Integer> getShellSorting(ArrayList<Integer> list) {
 
-        assert list != null : "arrayList not specified!";
+        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
 
         int i, j, increment, temp, arraySize = list.size();
 

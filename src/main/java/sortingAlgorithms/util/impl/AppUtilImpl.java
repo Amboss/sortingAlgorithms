@@ -2,6 +2,7 @@ package sortingAlgorithms.util.impl;
 
 import sortingAlgorithms.util.AppUtil;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -44,15 +45,65 @@ public class AppUtilImpl implements AppUtil {
     }
 
     /**
+     * Swapping elements in ArrayList
+     *
+     * @param list - array where replacement have to be made.
+     * @param subject - target element to be replaced.
+     * @param object - element to be replaced with.
+     */
+    public void swap(ArrayList<Integer> list, int subject, int object) {
+
+        assert list != null;
+
+        int temp = list.get(subject);
+
+        list.set(subject, list.get(object));
+        list.set(object, temp);
+    }
+
+    /**
      * Show array value in console
+     *
+     * @param list - array to shown in console
      */
     @Override
     public void getValueToConsole(ArrayList<Integer> list) {
+
+        assert list != null;
 
         System.out.printf("\n%s", "Value of array: \n");
 
         for (Integer foo : list) {
             System.out.printf("%d, ", foo);
         }
+    }
+
+    /**
+     * Read array from file
+     *
+     * @param file - target file with array
+     * @return ArrayList with amount of numbers
+     */
+    @Override
+    public ArrayList<Integer> loadArrayFromFile(File file) {
+
+        assert file != null;
+
+        return null;
+    }
+
+    /**
+     * Write array to file
+     *
+     * @param file - target file where array must be saved
+     * @param list - array that have to be saved
+     */
+    @Override
+    public void saveArrayToFile(File file, ArrayList<Integer> list) {
+
+        assert list != null;
+        assert file != null;
+
+
     }
 }

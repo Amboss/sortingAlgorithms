@@ -2,11 +2,13 @@ package sortingAlgorithms.algoritms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algoritms.impl.LinearAlgorithmsImpl;
+import sortingAlgorithms.algoritms.linear.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Testing Linear Algorithms
@@ -32,6 +34,10 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getHeapSorting() {
 
+        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        list = linearAlgorithms.getHeapSorting(list);
+
+        assertEquals("FAIL - list must be same,", listToMatch, list);
     }
 
     /**
@@ -40,7 +46,10 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getQuickSorting() {
 
-    }
+        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        list = linearAlgorithms.getQuickSorting(list);
+
+        assertEquals("FAIL - list must be same,", listToMatch, list);}
 
     /**
      * Testing Radix sort method

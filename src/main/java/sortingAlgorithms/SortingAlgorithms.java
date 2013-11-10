@@ -1,7 +1,7 @@
 package sortingAlgorithms;
 
-import sortingAlgorithms.algoritms.QuadraticAlgorithms;
-import sortingAlgorithms.algoritms.impl.QuadraticAlgorithmsImpl;
+import sortingAlgorithms.algoritms.LinearAlgorithms;
+import sortingAlgorithms.algoritms.linear.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -16,12 +16,16 @@ public class SortingAlgorithms {
 
         AppUtil appUtil = new AppUtilImpl();
 
-        QuadraticAlgorithms quadraticAlgorithms = new QuadraticAlgorithmsImpl();
+        //QuadraticAlgorithms quadraticAlgorithms = new QuadraticAlgorithmsImpl();
+
+        LinearAlgorithms linearAlgorithms = new LinearAlgorithmsImpl();
 
         ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
 
         appUtil.getValueToConsole(list);
 
-        appUtil.getValueToConsole(quadraticAlgorithms.getBubbleSorting(list));
+        //appUtil.getValueToConsole(quadraticAlgorithms.getBubbleSorting(list));
+
+        appUtil.getValueToConsole(linearAlgorithms.getQuickSorting(list));
     }
 }

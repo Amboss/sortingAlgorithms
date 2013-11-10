@@ -27,7 +27,7 @@ public interface LinearAlgorithms {
      * work well with a cache. Quicksort is a comparison sort and, in efficient implementations, is not
      * a stable sort. [http://en.wikipedia.org/wiki/QuickSort]
      *
-     * @param list - contain array with unsorted integer values;
+     * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
     public ArrayList<Integer> getQuickSorting(ArrayList<Integer> list);
