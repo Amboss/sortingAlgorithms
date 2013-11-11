@@ -1,6 +1,6 @@
-package sortingAlgorithms.algoritms.quadratic;
+package sortingAlgorithms.algorithms.quadratic;
 
-import sortingAlgorithms.algoritms.QuadraticAlgorithms;
+import sortingAlgorithms.algorithms.QuadraticAlgorithms;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 

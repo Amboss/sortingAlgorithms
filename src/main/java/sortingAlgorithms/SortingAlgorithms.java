@@ -1,7 +1,7 @@
 package sortingAlgorithms;
 
-import sortingAlgorithms.algoritms.LinearAlgorithms;
-import sortingAlgorithms.algoritms.linear.LinearAlgorithmsImpl;
+import sortingAlgorithms.algorithms.LinearAlgorithms;
+import sortingAlgorithms.algorithms.linear.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -26,6 +26,6 @@ public class SortingAlgorithms {
 
         //appUtil.getValueToConsole(quadraticAlgorithms.getBubbleSorting(list));
 
-        appUtil.getValueToConsole(linearAlgorithms.getRadixSorting(list));
+        appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(list));
     }
 }

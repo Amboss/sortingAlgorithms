@@ -1,8 +1,8 @@
-package sortingAlgorithms.algoritms;
+package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algoritms.linear.LinearAlgorithmsImpl;
+import sortingAlgorithms.algorithms.linear.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -76,5 +76,9 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getMergeSorting() {
 
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
+        list = linearAlgorithms.getMergeSorting(list);
+
+        assertEquals("FAIL - list must be same,", listToMatch, list);
     }
 }

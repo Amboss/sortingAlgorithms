@@ -1,8 +1,8 @@
-package sortingAlgorithms.algoritms;
+package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algoritms.quadratic.QuadraticAlgorithmsImpl;
+import sortingAlgorithms.algorithms.quadratic.QuadraticAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 

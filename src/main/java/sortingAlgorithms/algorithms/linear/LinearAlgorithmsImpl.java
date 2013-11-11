@@ -1,10 +1,11 @@
-package sortingAlgorithms.algoritms.linear;
+package sortingAlgorithms.algorithms.linear;
 
-import sortingAlgorithms.algoritms.LinearAlgorithms;
+import sortingAlgorithms.algorithms.LinearAlgorithms;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -70,21 +71,27 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
     /**
      * QuickSort
      *
-     * @param list - contain array with unsorted integer values;
+     * @param list - contain array with unsorted integer values.
+     *             Lowest value of algorithm set to 0.
      * @return List<Integer>
      */
     @Override
     public List<Integer> getQuickSorting(List<Integer> list) {
 
+        int low = 0;
         assert list != null : "arrayList not specified!";
-        return sortPartition(list, 0, list.size() - 1);
+        // lowest value
+
+        //low = list.indexOf(Collections.min(list));  TODO oO WTF ????
+
+        return sortPartition(list, low, list.size() - 1);
     }
 
     /*
-     * sorting partition for QuickSort
+     * sorting partition for getQuickSorting()
      * @param list - contain array with processed values
-     * @param
-     * @param
+     * @param low  - lowest value of list
+     * @param high - highest value of list
      */
     private List<Integer> sortPartition(List<Integer> list, int low, int high) {
 
@@ -172,7 +179,62 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
 
         assert list != null : "arrayList not specified!";
 
-        return list;
+        // converting to array
+        Integer[] numbers = new Integer[list.size()];
+        list.toArray(numbers);
 
+        Integer number = list.size();
+
+        return processArrays(0, number - 1, numbers, new Integer[number]);
+    }
+
+    /*
+     * recursively sorted via the Merge sort algorithm for getMergeSorting()
+     * @param numbers - target array
+     * @param helper - second part of array (left side of the array)
+     * @param low  - lowest value of list
+     * @param high - highest value of list
+     */
+    private List<Integer> processArrays(int low, int high, Integer[] numbers, Integer[] helper) {
+
+        // check if low is smaller then high, if not then the array is sorted
+        if (low < high) {
+            // Get the index of the element which is in the middle
+            int middle = low + (high - low) / 2;
+            // Sort the left side of the array
+            processArrays(low, middle, numbers, helper);
+            // Sort the right side of the array
+            processArrays(middle + 1, high, numbers, helper);
+
+            /*
+             * Merging both arrays.
+             */
+            // Copy both parts into the helper array
+            System.arraycopy(numbers, low, helper, low, high + 1 - low);
+
+            int i = low;
+            int j = middle + 1;
+            int k = low;
+
+            // Copy the smallest values from either the left or the right side back to the original array
+            while (i <= middle && j <= high) {
+                if (helper[i] <= helper[j]) {
+                    numbers[k] = helper[i];
+                    i++;
+                } else {
+                    numbers[k] = helper[j];
+                    j++;
+                }
+                k++;
+            }
+
+            // Copy the rest of the left side of the array into the target array
+            while (i <= middle) {
+                numbers[k] = helper[i];
+                k++;
+                i++;
+            }
+        }
+        return new ArrayList<>(Arrays.asList(numbers));
     }
 }
