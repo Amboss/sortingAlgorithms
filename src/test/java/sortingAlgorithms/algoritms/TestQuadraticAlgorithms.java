@@ -7,6 +7,7 @@ import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -19,11 +20,16 @@ public class TestQuadraticAlgorithms {
 
     private AppUtil appUtil = new AppUtilImpl();
 
-    private static ArrayList<Integer> listToMatch = new ArrayList<>();
+    private static List<Integer> listToMatch = new ArrayList<>();
+
+    private static Integer amount = 20;
+
+    // range of numbers equals to amount to be able make a assert
+    private static Integer maxRange = amount;
 
     @BeforeClass
     public static void initList() {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < amount; i++) {
             listToMatch.add(i, i);
         }
     }
@@ -34,7 +40,7 @@ public class TestQuadraticAlgorithms {
     @Test
     public void test_getSelectionSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = quadraticAlgorithms.getSelectionSorting(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
@@ -46,7 +52,7 @@ public class TestQuadraticAlgorithms {
     @Test
     public void test_getBubbleSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = quadraticAlgorithms.getBubbleSorting(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
@@ -58,7 +64,7 @@ public class TestQuadraticAlgorithms {
     @Test
     public void test_getInsertSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = quadraticAlgorithms.getInsertSorting(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
@@ -70,7 +76,7 @@ public class TestQuadraticAlgorithms {
     @Test
     public void test_getShellSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = quadraticAlgorithms.getShellSorting(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);

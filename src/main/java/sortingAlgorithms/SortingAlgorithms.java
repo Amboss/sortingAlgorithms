@@ -5,7 +5,7 @@ import sortingAlgorithms.algoritms.linear.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Main Class
@@ -20,12 +20,12 @@ public class SortingAlgorithms {
 
         LinearAlgorithms linearAlgorithms = new LinearAlgorithmsImpl();
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(20, 20);
 
         appUtil.getValueToConsole(list);
 
         //appUtil.getValueToConsole(quadraticAlgorithms.getBubbleSorting(list));
 
-        appUtil.getValueToConsole(linearAlgorithms.getQuickSorting(list));
+        appUtil.getValueToConsole(linearAlgorithms.getRadixSorting(list));
     }
 }

@@ -1,7 +1,7 @@
 package sortingAlgorithms.util;
 
 import java.io.File;
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Interface describes methods for additional functionality.
@@ -13,9 +13,9 @@ public interface AppUtil {
      *
      * @param amount   - defined amount of random numbers
      * @param maxRange - maximum range of numbers
-     * @return ArrayList with amount of numbers
+     * @return List with amount of numbers
      */
-    public ArrayList<Integer> getRandomNumbers(Integer amount, Integer maxRange);
+    public List<Integer> getRandomNumbers(Integer amount, Integer maxRange);
 
     /**
      * Swap method for ArrayList
@@ -24,22 +24,22 @@ public interface AppUtil {
      * @param subject - target element to be replaced.
      * @param object - element to be replaced with.
      */
-    public void swap(ArrayList<Integer> list, int subject, int object);
+    public void swap(List<Integer> list, int subject, int object);
 
     /**
      * Show array value in console
      *
      * @param list - array to shown in console
      */
-    public void getValueToConsole(ArrayList<Integer> list);
+    public void getValueToConsole(List<Integer> list);
 
     /**
      * Read array from file
      *
      * @param file - target file with array
-     * @return ArrayList with amount of numbers
+     * @return List with amount of numbers
      */
-    public ArrayList<Integer> loadArrayFromFile(File file);
+    public List<Integer> loadArrayFromFile(File file);
 
     /**
      * Write array to file
@@ -47,5 +47,5 @@ public interface AppUtil {
      * @param file - target file where array must be saved
      * @param list - array that have to be saved
      */
-    public void saveArrayToFile(File file, ArrayList<Integer> list);
+    public void saveArrayToFile(File file, List<Integer> list);
 }

@@ -3,7 +3,7 @@ package sortingAlgorithms.util;
 import org.junit.Test;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -24,7 +24,7 @@ public class TestAppUtil {
         Integer maxRange = 10;
 
         // creating list with specified amount of random numbers
-        ArrayList<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
 
         assertEquals("FAIL - list size must be same,", (Object) amount, list.size());
     }

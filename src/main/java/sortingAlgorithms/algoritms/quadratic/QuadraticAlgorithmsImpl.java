@@ -4,7 +4,7 @@ import sortingAlgorithms.algoritms.QuadraticAlgorithms;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Implementation of Quadratic algorithms.
@@ -17,11 +17,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Selection sort
      *
      * @param list - contain array with unsorted integer values.
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
-    public ArrayList<Integer> getSelectionSorting(ArrayList<Integer> list) {
+    public List<Integer> getSelectionSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         // moving forward through array
         for (int i = 0; i < list.size() - 1; i++) {
@@ -42,11 +42,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Bubble sort
      *
      * @param list - contain array with unsorted integer values.
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
-    public ArrayList<Integer> getBubbleSorting(ArrayList<Integer> list) {
+    public List<Integer> getBubbleSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         // moving forward through array.
         for (int i = list.size() - 1; i >= 2; i--) {
@@ -74,12 +74,12 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Insertion sort
      *
      * @param list - contain array with unsorted integer values.
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getInsertSorting(ArrayList<Integer> list) {
+    public List<Integer> getInsertSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         int i, j, temp;
 
@@ -100,12 +100,12 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Shell sort
      *
      * @param list - contain array with unsorted integer values.
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getShellSorting(ArrayList<Integer> list) {
+    public List<Integer> getShellSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         int i, j, increment, temp, arraySize = list.size();
 

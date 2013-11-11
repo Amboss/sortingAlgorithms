@@ -5,6 +5,7 @@ import sortingAlgorithms.util.AppUtil;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Implementation of methods for additional functionality.
@@ -19,7 +20,7 @@ public class AppUtilImpl implements AppUtil {
      * @return ArrayList with amount of numbers
      */
     @Override
-    public ArrayList<Integer> getRandomNumbers(Integer amount, Integer maxRange) {
+    public List<Integer> getRandomNumbers(Integer amount, Integer maxRange) {
 
         assert amount != null : "Amount not specified!";
         assert amount >= 1 : "Amount can't be less then 1!";
@@ -27,7 +28,7 @@ public class AppUtilImpl implements AppUtil {
         assert maxRange >= 1 : "MaxRange can't be less then 1!";
 
         // define ArrayList to hold Integer objects
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>();
 
         for (int i = 0; i <= maxRange - 1; i++) {
             arrayList.add(i);
@@ -37,7 +38,7 @@ public class AppUtilImpl implements AppUtil {
         Collections.shuffle(arrayList);
 
         // adding defined amount of numbers to target list
-        ArrayList<Integer> targetList = new ArrayList<>();
+        List<Integer> targetList = new ArrayList<>();
         for (int j = 0; j < amount; j++) {
             targetList.add(arrayList.get(j));
         }
@@ -51,7 +52,7 @@ public class AppUtilImpl implements AppUtil {
      * @param subject - target element to be replaced.
      * @param object - element to be replaced with.
      */
-    public void swap(ArrayList<Integer> list, int subject, int object) {
+    public void swap(List<Integer> list, int subject, int object) {
 
         assert list != null;
 
@@ -67,7 +68,7 @@ public class AppUtilImpl implements AppUtil {
      * @param list - array to shown in console
      */
     @Override
-    public void getValueToConsole(ArrayList<Integer> list) {
+    public void getValueToConsole(List<Integer> list) {
 
         assert list != null;
 
@@ -82,10 +83,10 @@ public class AppUtilImpl implements AppUtil {
      * Read array from file
      *
      * @param file - target file with array
-     * @return ArrayList with amount of numbers
+     * @return List with amount of numbers
      */
     @Override
-    public ArrayList<Integer> loadArrayFromFile(File file) {
+    public List<Integer> loadArrayFromFile(File file) {
 
         assert file != null;
 
@@ -99,7 +100,7 @@ public class AppUtilImpl implements AppUtil {
      * @param list - array that have to be saved
      */
     @Override
-    public void saveArrayToFile(File file, ArrayList<Integer> list) {
+    public void saveArrayToFile(File file, List<Integer> list) {
 
         assert list != null;
         assert file != null;

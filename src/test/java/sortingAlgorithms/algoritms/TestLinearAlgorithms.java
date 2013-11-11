@@ -7,6 +7,7 @@ import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,9 +22,14 @@ public class TestLinearAlgorithms {
 
     private static ArrayList<Integer> listToMatch = new ArrayList<>();
 
+    private static Integer amount = 20;
+
+    // range of numbers equals to amount to be able make a assert
+    private static Integer maxRange = amount;
+
     @BeforeClass
     public static void initList() {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < amount; i++) {
             listToMatch.add(i, i);
         }
     }
@@ -34,7 +40,7 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getHeapSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = linearAlgorithms.getHeapSorting(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
@@ -46,10 +52,11 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getQuickSorting() {
 
-        ArrayList<Integer> list = appUtil.getRandomNumbers(20, 20);
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
         list = linearAlgorithms.getQuickSorting(list);
 
-        assertEquals("FAIL - list must be same,", listToMatch, list);}
+        assertEquals("FAIL - list must be same,", listToMatch, list);
+    }
 
     /**
      * Testing Radix sort method
@@ -57,6 +64,10 @@ public class TestLinearAlgorithms {
     @Test
     public void test_getRadixSorting() {
 
+        List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
+        list = linearAlgorithms.getRadixSorting(list);
+
+        assertEquals("FAIL - list must be same,", listToMatch, list);
     }
 
     /**

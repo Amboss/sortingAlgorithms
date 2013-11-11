@@ -5,6 +5,7 @@ import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Implementation of Linear algorithms.
@@ -17,12 +18,12 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * HeapSort
      *
      * @param list - contain array with unsorted integer values;
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getHeapSorting(ArrayList<Integer> list) {
+    public List<Integer> getHeapSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         // building heap
         for (int child = 1; child < list.size(); child++) {
@@ -70,19 +71,22 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * QuickSort
      *
      * @param list - contain array with unsorted integer values;
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getQuickSorting(ArrayList<Integer> list) {
+    public List<Integer> getQuickSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
         return sortPartition(list, 0, list.size() - 1);
     }
 
-    /**
+    /*
      * sorting partition for QuickSort
+     * @param list - contain array with processed values
+     * @param
+     * @param
      */
-    private ArrayList<Integer> sortPartition(ArrayList<Integer> list, int low, int high) {
+    private List<Integer> sortPartition(List<Integer> list, int low, int high) {
 
         int i = low, j = high;
 
@@ -119,13 +123,41 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * RadixSort
      *
      * @param list - contain array with unsorted integer values;
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getRadixSorting(ArrayList<Integer> list) {
+    @SuppressWarnings("unchecked")
+    public List<Integer> getRadixSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
+        // To get a digit we can first divide number with 10^i and then get the remainder
+        // after dividing by 10, where i = 0 to 2*Number of digits in N;
+        int exp = 1;
+
+        // the number of digits in N^2 can be maximum double of the digits in N
+        int maxDigits = 2;
+
+        for (int i = 0; i < maxDigits; i++) {
+
+            // initiating multidimensional list of lists of size 10
+            List[] bucketList = new ArrayList[10];
+            for (int k = 0; k < 10; k++) {
+                bucketList[k] = new ArrayList<>();
+            }
+            for (Integer aList : list) {
+                int number = (aList / exp) % 10;
+                bucketList[number].add(aList); // producing warning: unchecked assignment - suppressed.
+            }
+            exp *= 10;
+            int index = 0;
+            for (int k = 0; k < 10; k++) {
+                for (Object num : bucketList[k]) {
+                    list.set(index, (Integer) num);
+                    index++;
+                }
+            }
+        }
         return list;
     }
 
@@ -133,13 +165,14 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * MergeSort
      *
      * @param list - contain array with unsorted integer values;
-     * @return ArrayList<Integer>
+     * @return List<Integer>
      */
     @Override
-    public ArrayList<Integer> getMergeSorting(ArrayList<Integer> list) {
+    public List<Integer> getMergeSorting(List<Integer> list) {
 
-        assert list != null && !list.equals(0) : "arrayList not specified or equals 0!";
+        assert list != null : "arrayList not specified!";
 
         return list;
+
     }
 }
