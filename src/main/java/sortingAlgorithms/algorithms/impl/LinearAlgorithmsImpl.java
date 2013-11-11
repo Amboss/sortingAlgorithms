@@ -1,4 +1,4 @@
-package sortingAlgorithms.algorithms.linear;
+package sortingAlgorithms.algorithms.impl;
 
 import sortingAlgorithms.algorithms.LinearAlgorithms;
 import sortingAlgorithms.util.AppUtil;

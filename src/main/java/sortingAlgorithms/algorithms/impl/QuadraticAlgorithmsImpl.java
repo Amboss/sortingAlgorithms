@@ -1,4 +1,4 @@
-package sortingAlgorithms.algorithms.quadratic;
+package sortingAlgorithms.algorithms.impl;
 
 import sortingAlgorithms.algorithms.QuadraticAlgorithms;
 import sortingAlgorithms.util.AppUtil;

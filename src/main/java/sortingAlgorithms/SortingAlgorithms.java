@@ -1,7 +1,7 @@
 package sortingAlgorithms;
 
 import sortingAlgorithms.algorithms.LinearAlgorithms;
-import sortingAlgorithms.algorithms.linear.LinearAlgorithmsImpl;
+import sortingAlgorithms.algorithms.impl.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 

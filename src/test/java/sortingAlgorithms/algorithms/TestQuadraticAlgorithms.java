@@ -2,7 +2,7 @@ package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algorithms.quadratic.QuadraticAlgorithmsImpl;
+import sortingAlgorithms.algorithms.impl.QuadraticAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
