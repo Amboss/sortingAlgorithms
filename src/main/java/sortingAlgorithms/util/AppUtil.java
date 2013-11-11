@@ -1,6 +1,5 @@
 package sortingAlgorithms.util;
 
-import java.io.File;
 import java.util.List;
 
 /**
@@ -20,9 +19,9 @@ public interface AppUtil {
     /**
      * Swap method for ArrayList
      *
-     * @param list - array where replacement have to be made.
+     * @param list    - array where replacement have to be made.
      * @param subject - target element to be replaced.
-     * @param object - element to be replaced with.
+     * @param object  - element to be replaced with.
      */
     public void swap(List<Integer> list, int subject, int object);
 
@@ -36,10 +35,10 @@ public interface AppUtil {
     /**
      * Read array from file
      *
-     * @param file - target file with array
+     * @param url - target file with array
      * @return List with amount of numbers
      */
-    public List<Integer> loadArrayFromFile(File file);
+    public List<Integer> loadArrayFromFile(String url);
 
     /**
      * Write array to file
@@ -47,5 +46,13 @@ public interface AppUtil {
      * @param file - target file where array must be saved
      * @param list - array that have to be saved
      */
-    public void saveArrayToFile(File file, List<Integer> list);
+    public void saveArrayToFile(String file, List<Integer> list);
+
+    /**
+     * Validate content of file
+     *
+     * @param list - target array to be validated
+     * @return boolean
+     */
+    public boolean validateArrayContent(List<String> list);
 }
