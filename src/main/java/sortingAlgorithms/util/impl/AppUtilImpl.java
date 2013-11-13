@@ -2,7 +2,7 @@ package sortingAlgorithms.util.impl;
 
 import sortingAlgorithms.util.AppUtil;
 
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -11,6 +11,8 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Implementation of methods for additional functionality.
@@ -23,7 +25,7 @@ public class AppUtilImpl implements AppUtil {
      * @param amount   - defined amount of random numbers
      * @param maxRange - maximum range of numbers
      * @return ArrayList with amount of numbers
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      */
     @Override
     public List<Integer> getRandomNumbers(int amount, int maxRange) throws IllegalArgumentException {
@@ -75,7 +77,7 @@ public class AppUtilImpl implements AppUtil {
      * Show array value in console
      *
      * @param list - array to shown in console
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      */
     @Override
     public void getValueToConsole(List<Integer> list) throws IllegalArgumentException {
@@ -100,30 +102,36 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public List<Integer> loadArrayFromFile(String url) throws IllegalArgumentException {
+    public List<Integer> loadArrayFromFile(String url) throws RuntimeException {
 
         if (url == null) {
             throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
-        List<Integer> targetList = new ArrayList<>();
+       List<Integer> targetList = new ArrayList<>();
 
-        try {
-            // reading content of file
-            List<String> lines = Files.readAllLines(Paths.get(url), Charset.forName("UTF-8"));
-
-            // validating content of file
-            if (validateArrayContent(lines)) {
-                // parsing to integer
-                for (String line : lines) {
-                    targetList.add(Integer.parseInt(line));
-                }
-            } else {
-                System.out.printf("\n\t%s", "Error: file not containing array of integers!");
-            }
-        } catch (IOException e) {
-            System.out.printf("\n\t%s", "Error occurred wile reading target file!");
-        }
+//        BufferedReader reader = null;
+//        File file = new File(url);
+//        String text;
+//
+//        try {
+//            // reading content of file
+//            reader = new BufferedReader(new FileReader(file));
+//
+//            //
+//            while (reader.readLine().matches()) {
+//                targetList.add(Integer.parseInt(text));
+//            }
+//        } catch (IOException e) {
+//            throw new RuntimeException("Error occurred wile reading target file!");
+//        } finally {
+//            try {
+//                if (reader != null) {
+//                    reader.close();
+//                }
+//            } catch (IOException ignored) {
+//            }
+//        }
         return targetList;
     }
 
@@ -131,8 +139,8 @@ public class AppUtilImpl implements AppUtil {
      * Write array to file
      *
      * @param fileName - name of target file where array must be saved
-     * @param list - array that have to be saved
-     * @throws RuntimeException
+     * @param list     - array that have to be saved
+     * @throws IllegalArgumentException
      */
     @Override
     public void saveArrayToFile(String fileName, List<Integer> list) throws IllegalArgumentException {
@@ -158,7 +166,7 @@ public class AppUtilImpl implements AppUtil {
         try {
             Files.write(path, targetList, ENCODING);
         } catch (IOException e) {
-            System.out.printf("\n\t%s", "Error occurred while writing " + fileName + " file!");
+            throw new RuntimeException("Error occurred while writing " + fileName + " file!");
         }
     }
 
@@ -167,23 +175,25 @@ public class AppUtilImpl implements AppUtil {
      *
      * @param list - target array to be validated
      * @return boolean
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      */
     @Override
     public boolean validateArrayContent(List<String> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new IllegalArgumentException ("array not specified!");
+            throw new IllegalArgumentException("array not specified!");
         }
 
-        boolean foo = false;
+        boolean foo = true;
 
-//        for (String targetValue : list) {
-//            if (!Character.isDigit(targetValue)) {
-//                return false;
-//            }
-//        }
+        for (String targetValue : list) {
+            Pattern textPattern = Pattern.compile("\\d+(,\\d+)*(\\.\\d+)?");
+            Matcher valueMatcher = textPattern.matcher(targetValue);
+            if (!valueMatcher.matches()) {
+                return false;
+            }
+        }
 
         return foo;
     }

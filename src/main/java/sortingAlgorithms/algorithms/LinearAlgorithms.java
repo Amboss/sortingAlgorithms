@@ -15,7 +15,7 @@ public interface LinearAlgorithms {
      * [http://en.wikipedia.org/wiki/HeapSort]
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getHeapSorting(List<Integer> list) throws IllegalArgumentException;
@@ -29,7 +29,7 @@ public interface LinearAlgorithms {
      * a stable sort. [http://en.wikipedia.org/wiki/QuickSort]
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getQuickSorting(List<Integer> list) throws IllegalArgumentException;
@@ -42,7 +42,7 @@ public interface LinearAlgorithms {
      * integers. [http://en.wikipedia.org/wiki/Radix_sort]
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getRadixSorting(List<Integer> list) throws IllegalArgumentException;
@@ -56,7 +56,7 @@ public interface LinearAlgorithms {
      * Advantages: the algorithm is effective in a large amount of input array (more than 1000).
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getMergeSorting(List<Integer> list) throws IllegalArgumentException;

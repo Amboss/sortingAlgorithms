@@ -17,7 +17,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Selection sort
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getSelectionSorting(List<Integer> list) throws IllegalArgumentException {
@@ -46,7 +46,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Bubble sort
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getBubbleSorting(List<Integer> list) throws IllegalArgumentException{
@@ -82,7 +82,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Insertion sort
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override
@@ -112,7 +112,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Shell sort
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override

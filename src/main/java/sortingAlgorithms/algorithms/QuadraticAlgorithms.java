@@ -14,7 +14,7 @@ public interface QuadraticAlgorithms {
      * two values. [http://www.leepoint.net/notes-java/data/arrays/31arrayselectionsort.html]
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     public List<Integer> getSelectionSorting(List<Integer> list) throws IllegalArgumentException;
@@ -31,7 +31,7 @@ public interface QuadraticAlgorithms {
      * Disadvantages: not effective on a large amount of input array (more than 100).
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return ArrayList<Integer>
      */
     public List<Integer> getBubbleSorting(List<Integer> list) throws IllegalArgumentException;
@@ -51,6 +51,7 @@ public interface QuadraticAlgorithms {
      * - Online; i.e., can sort a list as it receives it. [http://en.wikipedia.org/wiki/Insert_sort]
      *
      * @param list - contain array with unsorted integer values.
+     * @throws IllegalArgumentException
      * @return ArrayList<Integer>
      */
     public List<Integer> getInsertSorting(List<Integer> list) throws IllegalArgumentException;
@@ -63,7 +64,7 @@ public interface QuadraticAlgorithms {
      * [http://en.wikipedia.org/wiki/Shellsort]
      *
      * @param list - contain array with unsorted integer values.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return ArrayList<Integer>
      */
     public List<Integer> getShellSorting(List<Integer> list) throws IllegalArgumentException;

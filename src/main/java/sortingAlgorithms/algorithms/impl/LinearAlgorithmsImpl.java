@@ -19,7 +19,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * HeapSort
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override
@@ -77,7 +77,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      *
      * @param list - contain array with unsorted integer values.
      *             Lowest value of algorithm set to 0.
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override
@@ -89,7 +89,6 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
         }
 
         int low = 0;
-        //low = list.indexOf(Collections.min(list));  TODO oO WTF ????
 
         return sortPartition(list, low, list.size() - 1);
     }
@@ -142,7 +141,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * RadixSort
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override
@@ -189,7 +188,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * MergeSort
      *
      * @param list - contain array with unsorted integer values;
-     * @throws RuntimeException
+     * @throws IllegalArgumentException
      * @return List<Integer>
      */
     @Override
