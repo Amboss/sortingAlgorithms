@@ -20,11 +20,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getSelectionSorting(List<Integer> list) throws RuntimeException    {
+    public List<Integer> getSelectionSorting(List<Integer> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         // moving forward through array
@@ -49,11 +49,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getBubbleSorting(List<Integer> list) throws RuntimeException{
+    public List<Integer> getBubbleSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         // moving forward through array.
@@ -86,11 +86,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getInsertSorting(List<Integer> list)  throws RuntimeException{
+    public List<Integer> getInsertSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         int i, j;
@@ -116,11 +116,11 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getShellSorting(List<Integer> list)  throws RuntimeException{
+    public List<Integer> getShellSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         int i, j, increment, temp, arraySize = list.size();

@@ -28,8 +28,8 @@ public class SortingAlgorithms {
 
         try {
             appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(list));
-        } catch (RuntimeException e) {
-            System.out.println("ops =)");
+        } catch (IllegalArgumentException e) {
+            System.out.println("ops =)" + e);
         }
     }
 }

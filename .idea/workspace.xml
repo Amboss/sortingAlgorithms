@@ -4,25 +4,26 @@
     <list default="true" id="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359484940" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361858178" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
-    <file path="/QuadraticAlgorithmsImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359183643" ignored="false" />
+    <file path="/QuadraticAlgorithmsImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361915426" ignored="false" />
     <file path="/LinearAlgorithmsImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361570838" ignored="false" />
-    <file path="/AppUtilImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361353128" ignored="false" />
+    <file path="/AppUtilImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384362007142" ignored="false" />
     <file path="/AppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361394024" ignored="false" />
     <file path="/TestAppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384027322786" ignored="false" />
-    <file path="/SortingAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361746030" ignored="false" />
+    <file path="/SortingAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384362154191" ignored="false" />
     <file path="/pom.xml" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384017309808" ignored="false" />
     <file path="/TestQuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361688866" ignored="false" />
     <file path="/TestLinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384199323181" ignored="false" />
@@ -95,27 +96,7 @@
           <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="51" selection-start="942" selection-end="942" vertical-scroll-proportion="0.5423542">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestLinearAlgorithms.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestQuadraticAlgorithms.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="76" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+                <state line="35" column="42" selection-start="955" selection-end="955" vertical-scroll-proportion="0.5610561">
                   <folding />
                 </state>
               </provider>
@@ -128,25 +109,27 @@
           <file leaf-file-name="LinearAlgorithmsImpl.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="245" column="75" selection-start="7558" selection-end="7558" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="201" column="32" selection-start="6007" selection-end="6007" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#4216#4246#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppUtilImpl.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="AppUtilImpl.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="82" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.44884488">
+                <state line="84" column="46" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="QuadraticAlgorithmsImpl.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="QuadraticAlgorithmsImpl.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="34" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0">
+                <state line="122" column="46" selection-start="3537" selection-end="3537" vertical-scroll-proportion="2.2068207">
                   <folding />
                 </state>
               </provider>
@@ -179,14 +162,14 @@
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algoritms/linear/LinearAlgorithmsImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/mergeSort/MergeSortImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/LinearAlgorithmsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
       </list>
     </option>
@@ -795,7 +778,11 @@
       <created>1384359495436</created>
       <updated>1384359495436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="correction of checking input parameter">
+      <created>1384361864170</created>
+      <updated>1384361864170</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -956,27 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="31" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.80615735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="31" selection-start="3005" selection-end="3005" vertical-scroll-proportion="0.96213806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="60" selection-start="917" selection-end="917" vertical-scroll-proportion="0.59845984">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="76" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
@@ -993,30 +959,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="942" selection-end="942" vertical-scroll-proportion="0.5423542">
+        <state line="56" column="91" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.84821427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="92" selection-start="3033" selection-end="3033" vertical-scroll-proportion="1.1851429">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="75" selection-start="7558" selection-end="7558" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="201" column="32" selection-start="6007" selection-end="6007" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#4216#4246#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="34" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0">
+        <state line="19" column="96" selection-start="810" selection-end="810" vertical-scroll-proportion="0.36049107">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="82" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.44884488">
+        <state line="84" column="46" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="42" selection-start="955" selection-end="955" vertical-scroll-proportion="0.5610561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="46" selection-start="3537" selection-end="3537" vertical-scroll-proportion="2.2068207">
           <folding />
         </state>
       </provider>

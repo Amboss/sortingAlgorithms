@@ -23,11 +23,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getHeapSorting(List<Integer> list) throws RuntimeException {
+    public List<Integer> getHeapSorting(List<Integer> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         // building heap
@@ -81,11 +81,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getQuickSorting(List<Integer> list) throws RuntimeException{
+    public List<Integer> getQuickSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("Disallowed value");
+            throw new IllegalArgumentException("Disallowed value");
         }
 
         int low = 0;
@@ -147,11 +147,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      */
     @Override
     @SuppressWarnings("unchecked")
-    public List<Integer> getRadixSorting(List<Integer> list) throws RuntimeException{
+    public List<Integer> getRadixSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
 
@@ -193,11 +193,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getMergeSorting(List<Integer> list) throws RuntimeException{
+    public List<Integer> getMergeSorting(List<Integer> list) throws IllegalArgumentException{
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("ArrayList not specified!");
+            throw new IllegalArgumentException("ArrayList not specified!");
         }
 
         // converting to array

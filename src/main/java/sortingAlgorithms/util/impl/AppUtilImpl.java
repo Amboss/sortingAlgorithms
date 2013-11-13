@@ -26,10 +26,10 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public List<Integer> getRandomNumbers(int amount, int maxRange) {
+    public List<Integer> getRandomNumbers(int amount, int maxRange) throws IllegalArgumentException {
 
         if (amount < 1 || maxRange < 1) {
-            throw new RuntimeException("Amount or maxRange can't be less then 1!");
+            throw new IllegalArgumentException("Amount or maxRange can't be less then 1!");
         }
 
         // define ArrayList to hold Integer objects
@@ -58,11 +58,11 @@ public class AppUtilImpl implements AppUtil {
      * @param object  - element to be replaced with.
      * @throws RuntimeException
      */
-    public void swap(List<Integer> list, int subject, int object) {
+    public void swap(List<Integer> list, int subject, int object) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("swap error: disallowed value");
+            throw new IllegalArgumentException("swap error: disallowed value");
         }
 
         int temp = list.get(subject);
@@ -78,11 +78,11 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public void getValueToConsole(List<Integer> list) {
+    public void getValueToConsole(List<Integer> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("array not specified!");
+            throw new IllegalArgumentException("array not specified!");
         }
 
         System.out.printf("\n%s", "Value of array: \n");
@@ -100,10 +100,10 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public List<Integer> loadArrayFromFile(String url) {
+    public List<Integer> loadArrayFromFile(String url) throws IllegalArgumentException {
 
         if (url == null) {
-            throw new RuntimeException("ERROR: url is not specified!");
+            throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
         List<Integer> targetList = new ArrayList<>();
@@ -135,11 +135,11 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public void saveArrayToFile(String fileName, List<Integer> list) {
+    public void saveArrayToFile(String fileName, List<Integer> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (fileName == null || list == null) {
-            throw new RuntimeException("ERROR: url is not specified!");
+            throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
         // supporting path and encoding parameters
@@ -170,11 +170,11 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public boolean validateArrayContent(List<String> list) {
+    public boolean validateArrayContent(List<String> list) throws IllegalArgumentException {
 
         // checking input parameter for null
         if (list == null) {
-            throw new RuntimeException("array not specified!");
+            throw new IllegalArgumentException ("array not specified!");
         }
 
         boolean foo = false;

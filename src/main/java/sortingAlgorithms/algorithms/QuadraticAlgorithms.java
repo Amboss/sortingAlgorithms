@@ -17,7 +17,7 @@ public interface QuadraticAlgorithms {
      * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getSelectionSorting(List<Integer> list) throws RuntimeException;
+    public List<Integer> getSelectionSorting(List<Integer> list) throws IllegalArgumentException;
 
     /**
      * Bubble sort - is a simple sorting algorithm that works by repeatedly stepping through the list
@@ -34,7 +34,7 @@ public interface QuadraticAlgorithms {
      * @throws RuntimeException
      * @return ArrayList<Integer>
      */
-    public List<Integer> getBubbleSorting(List<Integer> list) throws RuntimeException;
+    public List<Integer> getBubbleSorting(List<Integer> list) throws IllegalArgumentException;
 
     /**
      * Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one
@@ -53,7 +53,7 @@ public interface QuadraticAlgorithms {
      * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
-    public List<Integer> getInsertSorting(List<Integer> list) throws RuntimeException;
+    public List<Integer> getInsertSorting(List<Integer> list) throws IllegalArgumentException;
 
     /**
      * Shell sort - is an in-place comparison sort. It generalizes an exchanging sort, such as insertion
@@ -66,5 +66,5 @@ public interface QuadraticAlgorithms {
      * @throws RuntimeException
      * @return ArrayList<Integer>
      */
-    public List<Integer> getShellSorting(List<Integer> list) throws RuntimeException;
+    public List<Integer> getShellSorting(List<Integer> list) throws IllegalArgumentException;
 }
