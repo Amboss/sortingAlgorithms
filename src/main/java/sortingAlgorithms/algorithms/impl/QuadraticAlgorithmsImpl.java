@@ -93,7 +93,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
             throw new RuntimeException("ArrayList not specified!");
         }
 
-        int i, j, temp;
+        int i, j;
 
         // moving forward through array.
         for (i = 1; i < list.size(); i++) {

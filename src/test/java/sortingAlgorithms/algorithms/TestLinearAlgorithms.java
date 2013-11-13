@@ -22,10 +22,10 @@ public class TestLinearAlgorithms {
 
     private static ArrayList<Integer> listToMatch = new ArrayList<>();
 
-    private static Integer amount = 20;
+    private static int amount = 20;
 
     // range of numbers equals to amount to be able make a assert
-    private static Integer maxRange = amount;
+    private static int maxRange = amount;
 
     @BeforeClass
     public static void initList() {

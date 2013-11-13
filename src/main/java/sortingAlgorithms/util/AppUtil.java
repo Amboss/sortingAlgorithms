@@ -14,7 +14,7 @@ public interface AppUtil {
      * @param maxRange - maximum range of numbers
      * @return List with amount of numbers
      */
-    public List<Integer> getRandomNumbers(Integer amount, Integer maxRange);
+    public List<Integer> getRandomNumbers(int amount, int maxRange);
 
     /**
      * Swap method for ArrayList

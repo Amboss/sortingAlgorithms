@@ -26,12 +26,7 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public List<Integer> getRandomNumbers(Integer amount, Integer maxRange) {
-
-        // checking input parameter for null
-        if (amount == null || maxRange == null) {
-            throw new RuntimeException("Amount or maxRange not specified");
-        }
+    public List<Integer> getRandomNumbers(int amount, int maxRange) {
 
         if (amount < 1 || maxRange < 1) {
             throw new RuntimeException("Amount or maxRange can't be less then 1!");

@@ -1,6 +1,5 @@
 package sortingAlgorithms;
 
-import com.sun.media.sound.InvalidDataException;
 import sortingAlgorithms.algorithms.LinearAlgorithms;
 import sortingAlgorithms.algorithms.impl.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
@@ -29,8 +28,8 @@ public class SortingAlgorithms {
 
         try {
             appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(list));
-        } catch (InvalidDataException e) {
-            e.printStackTrace();
+        } catch (RuntimeException e) {
+            System.out.println("ops =)");
         }
     }
 }
