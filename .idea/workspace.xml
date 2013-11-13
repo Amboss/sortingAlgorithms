@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testFile.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384370289797" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384382905848" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -82,7 +76,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" line="192" class="sortingAlgorithms.util.impl.AppUtilImpl" package="sortingAlgorithms.util.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -125,10 +119,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.48385054">
       <split-first>
         <leaf>
-          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="52" selection-start="825" selection-end="825" vertical-scroll-proportion="0.4174107">
+                <state line="34" column="38" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="55" column="21" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.81339186">
                   <folding />
                 </state>
               </provider>
@@ -138,10 +141,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="AppUtilImpl.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="AppUtilImpl.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="128" column="61" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.569857">
+                <state line="128" column="61" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.018660812">
                   <folding />
                 </state>
               </provider>
@@ -176,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algoritms/linear/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algoritms/linear/mergeSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algoritms/linear/mergeSort/MergeSortImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algoritms/linear/LinearAlgorithmsImpl.java" />
@@ -190,8 +192,9 @@
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java" />
         <option value="$PROJECT_DIR$/testFile.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -249,7 +252,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,222 +270,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,6 +289,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -813,7 +603,11 @@
       <created>1384362186098</created>
       <updated>1384362186098</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix">
+      <created>1384376543410</created>
+      <updated>1384376543410</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -848,16 +642,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.257754" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16862327" sideWeight="0.6524064" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17182498" sideWeight="0.6524064" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31336898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -904,7 +698,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing exception type to IllegalArgumentException" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -927,6 +721,7 @@
     <MESSAGE value="adding file loading\writing methods, adding validation of loaded content&#10;" />
     <MESSAGE value="correction of checking input parameter" />
     <MESSAGE value="changing exception type to IllegalArgumentException" />
+    <MESSAGE value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,11 +731,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="17" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="488" column="30" selection-start="19267" selection-end="19267" vertical-scroll-proportion="1.9231626" />
@@ -953,85 +743,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="536" selection-end="536" vertical-scroll-proportion="0.48518112">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="26" column="8" selection-start="536" selection-end="536" vertical-scroll-proportion="0.48518112" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="76" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="76" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="27" column="22" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="91" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.84821427">
-          <folding />
-        </state>
+        <state line="56" column="91" selection-start="1722" selection-end="1722" vertical-scroll-proportion="0.84821427" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/QuadraticAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="39" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.8106904">
-          <folding />
-        </state>
+        <state line="66" column="39" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.8106904" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/QuadraticAlgorithmsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="39" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.30954996">
-          <folding />
-        </state>
+        <state line="114" column="39" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.30954996" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/LinearAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="39" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.7917595">
-          <folding />
-        </state>
+        <state line="58" column="39" selection-start="2935" selection-end="2935" vertical-scroll-proportion="0.7917595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/impl/LinearAlgorithmsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="64" selection-start="2699" selection-end="2699" vertical-scroll-proportion="1.6469933">
-          <folding>
-            <element signature="e#4169#4199#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="93" column="64" selection-start="2699" selection-end="2699" vertical-scroll-proportion="1.6469933" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3010" column="43" selection-start="135766" selection-end="135766" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3010" column="43" selection-start="135766" selection-end="135766" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="18" selection-start="12516" selection-end="12516" vertical-scroll-proportion="-0.11551155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="825" selection-end="825" vertical-scroll-proportion="0.4174107">
-          <folding />
-        </state>
+        <state line="380" column="18" selection-start="12516" selection-end="12516" vertical-scroll-proportion="-0.11551155" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testFile.txt">
@@ -1043,7 +800,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="61" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.569857">
+        <state line="128" column="61" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.018660812">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="38" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="21" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.81339186">
           <folding />
         </state>
       </provider>

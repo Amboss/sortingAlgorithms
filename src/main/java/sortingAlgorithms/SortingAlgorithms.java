@@ -26,13 +26,13 @@ public class SortingAlgorithms {
         try {
             targetList = appUtil.loadArrayFromFile("D:\\JAVAprojects\\desckTopApp\\sortingAlgorithms\\testFile.txt");
 
-            System.out.println("\nBefore:\n");
+            System.out.println("\nBefore:");
             appUtil.getValueToConsole(targetList);
 
-            System.out.println("After:\n");
+            System.out.println("After:");
             appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(targetList));
         } catch (IllegalArgumentException e) {
-            System.out.println("ops =)\n" + e);
+            System.out.println("ops =)" + e);
         }
     }
 }
