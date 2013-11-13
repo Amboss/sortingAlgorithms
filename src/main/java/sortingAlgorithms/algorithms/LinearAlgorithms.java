@@ -15,9 +15,10 @@ public interface LinearAlgorithms {
      * [http://en.wikipedia.org/wiki/HeapSort]
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getHeapSorting(List<Integer> list);
+    public List<Integer> getHeapSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * Quick sort, or partition-exchange sort, is a sorting algorithm developed by Tony Hoare that, on
@@ -28,9 +29,10 @@ public interface LinearAlgorithms {
      * a stable sort. [http://en.wikipedia.org/wiki/QuickSort]
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getQuickSorting(List<Integer> list);
+    public List<Integer> getQuickSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * Radix sort is a non-comparative integer sorting algorithm that sorts data with integer keys by
@@ -40,9 +42,10 @@ public interface LinearAlgorithms {
      * integers. [http://en.wikipedia.org/wiki/Radix_sort]
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getRadixSorting(List<Integer> list);
+    public List<Integer> getRadixSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * MergeSort - Sortable sequence consisting of n elements is divided into two smaller sequences.
@@ -53,7 +56,8 @@ public interface LinearAlgorithms {
      * Advantages: the algorithm is effective in a large amount of input array (more than 1000).
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getMergeSorting(List<Integer> list);
+    public List<Integer> getMergeSorting(List<Integer> list) throws RuntimeException;
 }

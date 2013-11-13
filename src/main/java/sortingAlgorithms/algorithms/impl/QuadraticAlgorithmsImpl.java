@@ -17,11 +17,15 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Selection sort
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getSelectionSorting(List<Integer> list) {
+    public List<Integer> getSelectionSorting(List<Integer> list) throws RuntimeException    {
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         // moving forward through array
         for (int i = 0; i < list.size() - 1; i++) {
@@ -42,11 +46,15 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Bubble sort
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getBubbleSorting(List<Integer> list) {
+    public List<Integer> getBubbleSorting(List<Integer> list) throws RuntimeException{
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         // moving forward through array.
         for (int i = list.size() - 1; i >= 2; i--) {
@@ -74,12 +82,16 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Insertion sort
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getInsertSorting(List<Integer> list) {
+    public List<Integer> getInsertSorting(List<Integer> list)  throws RuntimeException{
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         int i, j, temp;
 
@@ -100,12 +112,16 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * Shell sort
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getShellSorting(List<Integer> list) {
+    public List<Integer> getShellSorting(List<Integer> list)  throws RuntimeException{
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         int i, j, increment, temp, arraySize = list.size();
 

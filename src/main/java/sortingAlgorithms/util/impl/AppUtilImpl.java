@@ -23,14 +23,19 @@ public class AppUtilImpl implements AppUtil {
      * @param amount   - defined amount of random numbers
      * @param maxRange - maximum range of numbers
      * @return ArrayList with amount of numbers
+     * @throws RuntimeException
      */
     @Override
     public List<Integer> getRandomNumbers(Integer amount, Integer maxRange) {
 
-        assert amount != null : "Amount not specified!";
-        assert amount >= 1 : "Amount can't be less then 1!";
-        assert maxRange != null : "MaxRange not specified!";
-        assert maxRange >= 1 : "MaxRange can't be less then 1!";
+        // checking input parameter for null
+        if (amount == null || maxRange == null) {
+            throw new RuntimeException("Amount or maxRange not specified");
+        }
+
+        if (amount < 1 || maxRange < 1) {
+            throw new RuntimeException("Amount or maxRange can't be less then 1!");
+        }
 
         // define ArrayList to hold Integer objects
         List<Integer> arrayList = new ArrayList<>();
@@ -56,10 +61,14 @@ public class AppUtilImpl implements AppUtil {
      * @param list    - array where replacement have to be made.
      * @param subject - target element to be replaced.
      * @param object  - element to be replaced with.
+     * @throws RuntimeException
      */
     public void swap(List<Integer> list, int subject, int object) {
 
-        assert list != null;
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("swap error: disallowed value");
+        }
 
         int temp = list.get(subject);
 
@@ -71,11 +80,15 @@ public class AppUtilImpl implements AppUtil {
      * Show array value in console
      *
      * @param list - array to shown in console
+     * @throws RuntimeException
      */
     @Override
     public void getValueToConsole(List<Integer> list) {
 
-        assert list != null;
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("array not specified!");
+        }
 
         System.out.printf("\n%s", "Value of array: \n");
 
@@ -89,11 +102,14 @@ public class AppUtilImpl implements AppUtil {
      *
      * @param url - target file with array
      * @return List with amount of numbers
+     * @throws RuntimeException
      */
     @Override
     public List<Integer> loadArrayFromFile(String url) {
 
-        assert url != null : "ERROR: url is not specified!";
+        if (url == null) {
+            throw new RuntimeException("ERROR: url is not specified!");
+        }
 
         List<Integer> targetList = new ArrayList<>();
 
@@ -121,12 +137,15 @@ public class AppUtilImpl implements AppUtil {
      *
      * @param fileName - name of target file where array must be saved
      * @param list - array that have to be saved
+     * @throws RuntimeException
      */
     @Override
     public void saveArrayToFile(String fileName, List<Integer> list) {
 
-        assert list != null;
-        assert fileName != null;
+        // checking input parameter for null
+        if (fileName == null || list == null) {
+            throw new RuntimeException("ERROR: url is not specified!");
+        }
 
         // supporting path and encoding parameters
         Charset ENCODING = StandardCharsets.UTF_8;
@@ -153,11 +172,16 @@ public class AppUtilImpl implements AppUtil {
      *
      * @param list - target array to be validated
      * @return boolean
+     * @throws RuntimeException
      */
     @Override
     public boolean validateArrayContent(List<String> list) {
 
-        assert list != null;
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("array not specified!");
+        }
+
         boolean foo = false;
 
 //        for (String targetValue : list) {

@@ -14,9 +14,10 @@ public interface QuadraticAlgorithms {
      * two values. [http://www.leepoint.net/notes-java/data/arrays/31arrayselectionsort.html]
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return List<Integer>
      */
-    public List<Integer> getSelectionSorting(List<Integer> list);
+    public List<Integer> getSelectionSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * Bubble sort - is a simple sorting algorithm that works by repeatedly stepping through the list
@@ -30,9 +31,10 @@ public interface QuadraticAlgorithms {
      * Disadvantages: not effective on a large amount of input array (more than 100).
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return ArrayList<Integer>
      */
-    public List<Integer> getBubbleSorting(List<Integer> list);
+    public List<Integer> getBubbleSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one
@@ -51,7 +53,7 @@ public interface QuadraticAlgorithms {
      * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
-    public List<Integer> getInsertSorting(List<Integer> list);
+    public List<Integer> getInsertSorting(List<Integer> list) throws RuntimeException;
 
     /**
      * Shell sort - is an in-place comparison sort. It generalizes an exchanging sort, such as insertion
@@ -61,7 +63,8 @@ public interface QuadraticAlgorithms {
      * [http://en.wikipedia.org/wiki/Shellsort]
      *
      * @param list - contain array with unsorted integer values.
+     * @throws RuntimeException
      * @return ArrayList<Integer>
      */
-    public List<Integer> getShellSorting(List<Integer> list);
+    public List<Integer> getShellSorting(List<Integer> list) throws RuntimeException;
 }

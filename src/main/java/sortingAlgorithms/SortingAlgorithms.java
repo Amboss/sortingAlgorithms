@@ -1,5 +1,6 @@
 package sortingAlgorithms;
 
+import com.sun.media.sound.InvalidDataException;
 import sortingAlgorithms.algorithms.LinearAlgorithms;
 import sortingAlgorithms.algorithms.impl.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
@@ -26,6 +27,10 @@ public class SortingAlgorithms {
 
         //appUtil.getValueToConsole(quadraticAlgorithms.getBubbleSorting(list));
 
-        appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(list));
+        try {
+            appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(list));
+        } catch (InvalidDataException e) {
+            e.printStackTrace();
+        }
     }
 }

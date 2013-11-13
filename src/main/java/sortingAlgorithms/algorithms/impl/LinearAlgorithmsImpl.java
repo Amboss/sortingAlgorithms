@@ -19,12 +19,16 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * HeapSort
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getHeapSorting(List<Integer> list) {
+    public List<Integer> getHeapSorting(List<Integer> list) throws RuntimeException {
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         // building heap
         for (int child = 1; child < list.size(); child++) {
@@ -73,15 +77,18 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      *
      * @param list - contain array with unsorted integer values.
      *             Lowest value of algorithm set to 0.
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getQuickSorting(List<Integer> list) {
+    public List<Integer> getQuickSorting(List<Integer> list) throws RuntimeException{
+
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("Disallowed value");
+        }
 
         int low = 0;
-        assert list != null : "arrayList not specified!";
-        // lowest value
-
         //low = list.indexOf(Collections.min(list));  TODO oO WTF ????
 
         return sortPartition(list, low, list.size() - 1);
@@ -94,6 +101,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @param high - highest value of list
      */
     private List<Integer> sortPartition(List<Integer> list, int low, int high) {
+
+        // checking input parameter for null
+        if (list == null) {
+            return list;
+        }
 
         int i = low, j = high;
 
@@ -130,13 +142,18 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * RadixSort
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
     @SuppressWarnings("unchecked")
-    public List<Integer> getRadixSorting(List<Integer> list) {
+    public List<Integer> getRadixSorting(List<Integer> list) throws RuntimeException{
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
+
 
         // To get a digit we can first divide number with 10^i and then get the remainder
         // after dividing by 10, where i = 0 to 2*Number of digits in N;
@@ -172,12 +189,16 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * MergeSort
      *
      * @param list - contain array with unsorted integer values;
+     * @throws RuntimeException
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getMergeSorting(List<Integer> list) {
+    public List<Integer> getMergeSorting(List<Integer> list) throws RuntimeException{
 
-        assert list != null : "arrayList not specified!";
+        // checking input parameter for null
+        if (list == null) {
+            throw new RuntimeException("ArrayList not specified!");
+        }
 
         // converting to array
         Integer[] numbers = new Integer[list.size()];
@@ -196,6 +217,11 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @param high - highest value of list
      */
     private List<Integer> processArrays(int low, int high, Integer[] numbers, Integer[] helper) {
+
+        // checking input parameter for null
+        if (numbers == null || helper == null) {
+            return null;
+        }
 
         // check if low is smaller then high, if not then the array is sorted
         if (low < high) {
