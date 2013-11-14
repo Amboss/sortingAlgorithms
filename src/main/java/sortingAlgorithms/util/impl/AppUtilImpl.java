@@ -79,7 +79,7 @@ public class AppUtilImpl implements AppUtil {
      * @throws IllegalArgumentException
      */
     @Override
-    public void getValueToConsole(List<Integer> list){
+    public void printValueToConsole(List<Integer> list){
 
         // checking input parameter for null
         if (list == null) {

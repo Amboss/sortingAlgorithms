@@ -30,7 +30,7 @@ public interface AppUtil {
      *
      * @param list - array to shown in console
      */
-    public void getValueToConsole(List<Integer> list);
+    public void printValueToConsole(List<Integer> list);
 
     /**
      * Read array from file

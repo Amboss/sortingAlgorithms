@@ -23,9 +23,9 @@ public class SortingAlgorithms {
         List<Integer> targetList = appUtil.loadArrayFromFile("D:\\JAVAprojects\\desckTopApp\\sortingAlgorithms\\testFile.txt");
 
         System.out.println("Before:");
-        appUtil.getValueToConsole(targetList);
+        appUtil.printValueToConsole(targetList);
 
         System.out.println("After:");
-        appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(targetList));
+        appUtil.printValueToConsole(linearAlgorithms.getMergeSorting(targetList));
     }
 }
