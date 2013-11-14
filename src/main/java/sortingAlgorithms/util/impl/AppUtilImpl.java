@@ -2,12 +2,6 @@ package sortingAlgorithms.util.impl;
 
 import sortingAlgorithms.util.AppUtil;
 
-import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -19,6 +13,10 @@ import java.util.regex.Pattern;
  */
 public class AppUtilImpl implements AppUtil {
 
+    private final String REGEX = "\\d+(,\\d+)*(\\.\\d+)?";
+
+    private Pattern textPattern = Pattern.compile(REGEX);
+
     /**
      * Get defined amount of random numbers from defined range
      *
@@ -26,9 +24,11 @@ public class AppUtilImpl implements AppUtil {
      * @param maxRange - maximum range of numbers
      * @return ArrayList with amount of numbers
      * @throws IllegalArgumentException
+     *
+     * TODO
      */
     @Override
-    public List<Integer> getRandomNumbers(int amount, int maxRange) throws IllegalArgumentException {
+    public List<Integer> getRandomNumbers(int amount, int maxRange)  {
 
         if (amount < 1 || maxRange < 1) {
             throw new IllegalArgumentException("Amount or maxRange can't be less then 1!");
@@ -56,21 +56,20 @@ public class AppUtilImpl implements AppUtil {
      * Swapping elements in ArrayList
      *
      * @param list    - array where replacement have to be made.
-     * @param subject - target element to be replaced.
-     * @param object  - element to be replaced with.
+     * @param right  - index of element to be replaced with.
+     * @param left - index of element to be replaced.
      * @throws RuntimeException
      */
-    public void swap(List<Integer> list, int subject, int object) throws IllegalArgumentException {
+    public void swap(List<Integer> list, int left, int right){
 
         // checking input parameter for null
         if (list == null) {
             throw new IllegalArgumentException("swap error: disallowed value");
         }
 
-        int temp = list.get(subject);
-
-        list.set(subject, list.get(object));
-        list.set(object, temp);
+        int temp = list.get(left);
+        list.set(left, list.get(right));
+        list.set(right, temp);
     }
 
     /**
@@ -80,7 +79,7 @@ public class AppUtilImpl implements AppUtil {
      * @throws IllegalArgumentException
      */
     @Override
-    public void getValueToConsole(List<Integer> list) throws IllegalArgumentException {
+    public void getValueToConsole(List<Integer> list){
 
         // checking input parameter for null
         if (list == null) {
@@ -102,13 +101,13 @@ public class AppUtilImpl implements AppUtil {
      * @throws RuntimeException
      */
     @Override
-    public List<Integer> loadArrayFromFile(String url) throws RuntimeException {
+    public List<Integer> loadArrayFromFile(String url){
 
         if (url == null) {
             throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
-       List<Integer> targetList = new ArrayList<>();
+       List<Integer> targetList = new ArrayList();
 
 //        BufferedReader reader = null;
 //        File file = new File(url);
@@ -143,31 +142,31 @@ public class AppUtilImpl implements AppUtil {
      * @throws IllegalArgumentException
      */
     @Override
-    public void saveArrayToFile(String fileName, List<Integer> list) throws IllegalArgumentException {
+    public void saveArrayToFile(String fileName, List<Integer> list){
 
         // checking input parameter for null
         if (fileName == null || list == null) {
             throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
-        // supporting path and encoding parameters
-        Charset ENCODING = StandardCharsets.UTF_8;
-
-        Path path = Paths.get(fileName);
-
-        // converting to String list
-        List<String> targetList = new ArrayList<>();
-
-        for (Integer foo : list) {
-            targetList.add(String.valueOf(foo));
-        }
-
-        // creating new file with target list
-        try {
-            Files.write(path, targetList, ENCODING);
-        } catch (IOException e) {
-            throw new RuntimeException("Error occurred while writing " + fileName + " file!");
-        }
+//        // supporting path and encoding parameters
+//        Charset ENCODING = StandardCharsets.UTF_8;
+//
+//        Path path = Paths.get(fileName);
+//
+//        // converting to String list
+//        List<String> targetList = new ArrayList<>();
+//
+//        for (Integer foo : list) {
+//            targetList.add(String.valueOf(foo));
+//        }
+//
+//        // creating new file with target list
+//        try {
+//            Files.write(path, targetList, ENCODING);
+//        } catch (IOException e) {
+//            throw new RuntimeException("Error occurred while writing " + fileName + " file!");
+//        }
     }
 
     /**
@@ -178,7 +177,7 @@ public class AppUtilImpl implements AppUtil {
      * @throws IllegalArgumentException
      */
     @Override
-    public boolean validateArrayContent(List<String> list) throws IllegalArgumentException {
+    public boolean validateArrayContent(List<String> list){
 
         // checking input parameter for null
         if (list == null) {
@@ -188,13 +187,11 @@ public class AppUtilImpl implements AppUtil {
         boolean foo = true;
 
         for (String targetValue : list) {
-            Pattern textPattern = Pattern.compile("\\d+(,\\d+)*(\\.\\d+)?");
             Matcher valueMatcher = textPattern.matcher(targetValue);
             if (!valueMatcher.matches()) {
                 return false;
             }
         }
-
         return foo;
     }
 }

@@ -20,7 +20,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getSelectionSorting(List<Integer> list) throws IllegalArgumentException {
+    public List<Integer> getSelectionSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -49,7 +49,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getBubbleSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getBubbleSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -86,7 +86,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getInsertSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getInsertSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -116,7 +116,7 @@ public class QuadraticAlgorithmsImpl implements QuadraticAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getShellSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getShellSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {

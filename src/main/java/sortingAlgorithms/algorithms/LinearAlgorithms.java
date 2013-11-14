@@ -18,7 +18,7 @@ public interface LinearAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getHeapSorting(List<Integer> list) throws IllegalArgumentException;
+    public List<Integer> getHeapSorting(List<Integer> list);
 
     /**
      * Quick sort, or partition-exchange sort, is a sorting algorithm developed by Tony Hoare that, on
@@ -32,7 +32,7 @@ public interface LinearAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getQuickSorting(List<Integer> list) throws IllegalArgumentException;
+    public List<Integer> getQuickSorting(List<Integer> list);
 
     /**
      * Radix sort is a non-comparative integer sorting algorithm that sorts data with integer keys by
@@ -45,7 +45,7 @@ public interface LinearAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getRadixSorting(List<Integer> list) throws IllegalArgumentException;
+    public List<Integer> getRadixSorting(List<Integer> list);
 
     /**
      * MergeSort - Sortable sequence consisting of n elements is divided into two smaller sequences.
@@ -59,5 +59,5 @@ public interface LinearAlgorithms {
      * @throws IllegalArgumentException
      * @return List<Integer>
      */
-    public List<Integer> getMergeSorting(List<Integer> list) throws IllegalArgumentException;
+    public List<Integer> getMergeSorting(List<Integer> list);
 }

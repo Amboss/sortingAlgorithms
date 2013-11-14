@@ -5,7 +5,6 @@ import sortingAlgorithms.algorithms.impl.LinearAlgorithmsImpl;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,18 +20,12 @@ public class SortingAlgorithms {
 
         LinearAlgorithms linearAlgorithms = new LinearAlgorithmsImpl();
 
-        List<Integer> targetList = new ArrayList<>();
+        List<Integer> targetList = appUtil.loadArrayFromFile("D:\\JAVAprojects\\desckTopApp\\sortingAlgorithms\\testFile.txt");
 
-        try {
-            targetList = appUtil.loadArrayFromFile("D:\\JAVAprojects\\desckTopApp\\sortingAlgorithms\\testFile.txt");
+        System.out.println("Before:");
+        appUtil.getValueToConsole(targetList);
 
-            System.out.println("\nBefore:");
-            appUtil.getValueToConsole(targetList);
-
-            System.out.println("After:");
-            appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(targetList));
-        } catch (IllegalArgumentException e) {
-            System.out.println("ops =)" + e);
-        }
+        System.out.println("After:");
+        appUtil.getValueToConsole(linearAlgorithms.getMergeSorting(targetList));
     }
 }

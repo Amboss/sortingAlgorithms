@@ -14,7 +14,7 @@ public interface AppUtil {
      * @param maxRange - maximum range of numbers
      * @return List with amount of numbers
      */
-    public List<Integer> getRandomNumbers(int amount, int maxRange) throws IllegalArgumentException ;
+    public List<Integer> getRandomNumbers(int amount, int maxRange);
 
     /**
      * Swap method for ArrayList
@@ -23,14 +23,14 @@ public interface AppUtil {
      * @param subject - target element to be replaced.
      * @param object  - element to be replaced with.
      */
-    public void swap(List<Integer> list, int subject, int object) throws IllegalArgumentException ;
+    public void swap(List<Integer> list, int subject, int object);
 
     /**
      * Show array value in console
      *
      * @param list - array to shown in console
      */
-    public void getValueToConsole(List<Integer> list) throws IllegalArgumentException ;
+    public void getValueToConsole(List<Integer> list);
 
     /**
      * Read array from file
@@ -38,7 +38,7 @@ public interface AppUtil {
      * @param url - target file with array
      * @return List with amount of numbers
      */
-    public List<Integer> loadArrayFromFile(String url) throws IllegalArgumentException ;
+    public List<Integer> loadArrayFromFile(String url);
 
     /**
      * Write array to file
@@ -46,7 +46,7 @@ public interface AppUtil {
      * @param file - target file where array must be saved
      * @param list - array that have to be saved
      */
-    public void saveArrayToFile(String file, List<Integer> list) throws IllegalArgumentException ;
+    public void saveArrayToFile(String file, List<Integer> list);
 
     /**
      * Validate content of file
@@ -54,5 +54,5 @@ public interface AppUtil {
      * @param list - target array to be validated
      * @return boolean
      */
-    public boolean validateArrayContent(List<String> list) throws IllegalArgumentException ;
+    public boolean validateArrayContent(List<String> list);
 }

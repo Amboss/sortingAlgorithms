@@ -23,7 +23,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getHeapSorting(List<Integer> list) throws IllegalArgumentException {
+    public List<Integer> getHeapSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -81,7 +81,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getQuickSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getQuickSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -146,7 +146,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      */
     @Override
     @SuppressWarnings("unchecked")
-    public List<Integer> getRadixSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getRadixSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -192,7 +192,7 @@ public class LinearAlgorithmsImpl implements LinearAlgorithms {
      * @return List<Integer>
      */
     @Override
-    public List<Integer> getMergeSorting(List<Integer> list) throws IllegalArgumentException{
+    public List<Integer> getMergeSorting(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
