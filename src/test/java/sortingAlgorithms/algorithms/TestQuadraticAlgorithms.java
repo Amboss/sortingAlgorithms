@@ -2,7 +2,10 @@ package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algorithms.impl.QuadraticAlgorithmsImpl;
+import sortingAlgorithms.algorithms.quadratic.BubbleSort;
+import sortingAlgorithms.algorithms.quadratic.InsertSort;
+import sortingAlgorithms.algorithms.quadratic.SelectionSort;
+import sortingAlgorithms.algorithms.quadratic.ShellSort;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -16,11 +19,9 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestQuadraticAlgorithms {
 
-    private QuadraticAlgorithms quadraticAlgorithms = new QuadraticAlgorithmsImpl();
-
     private AppUtil appUtil = new AppUtilImpl();
 
-    private static List<Integer> listToMatch = new ArrayList<>();
+    private static List<Integer> listToMatch = new ArrayList<Integer>();
 
     private static int amount = 20;
 
@@ -41,7 +42,10 @@ public class TestQuadraticAlgorithms {
     public void test_getSelectionSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = quadraticAlgorithms.getSelectionSorting(list);
+
+        SortingAlgorithm algorithm = new SelectionSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -53,7 +57,10 @@ public class TestQuadraticAlgorithms {
     public void test_getBubbleSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = quadraticAlgorithms.getBubbleSorting(list);
+
+        SortingAlgorithm algorithm = new BubbleSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -65,7 +72,10 @@ public class TestQuadraticAlgorithms {
     public void test_getInsertSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = quadraticAlgorithms.getInsertSorting(list);
+
+        SortingAlgorithm algorithm = new InsertSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -77,7 +87,10 @@ public class TestQuadraticAlgorithms {
     public void test_getShellSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = quadraticAlgorithms.getShellSorting(list);
+
+        SortingAlgorithm algorithm = new ShellSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }

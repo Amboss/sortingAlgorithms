@@ -25,7 +25,6 @@ public class AppUtilImpl implements AppUtil {
      * @return ArrayList with amount of numbers
      * @throws IllegalArgumentException
      *
-     * TODO
      */
     @Override
     public List<Integer> getRandomNumbers(int amount, int maxRange)  {
@@ -35,7 +34,7 @@ public class AppUtilImpl implements AppUtil {
         }
 
         // define ArrayList to hold Integer objects
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<Integer>();
 
         for (int i = 0; i <= maxRange - 1; i++) {
             arrayList.add(i);
@@ -45,10 +44,18 @@ public class AppUtilImpl implements AppUtil {
         Collections.shuffle(arrayList);
 
         // adding defined amount of numbers to target list
-        List<Integer> targetList = new ArrayList<>();
+        List<Integer> targetList = new ArrayList<Integer>();
         for (int j = 0; j < amount; j++) {
             targetList.add(arrayList.get(j));
         }
+
+//        Random random = new Random();
+//
+//        // adding defined amount of numbers to target list
+//        List<Integer> targetList = new ArrayList<>();
+//        for (int j = 0; j < amount; j++) {
+//            targetList.add(random.nextInt(maxRange));
+//        }
         return targetList;
     }
 
@@ -107,7 +114,7 @@ public class AppUtilImpl implements AppUtil {
             throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
-       List<Integer> targetList = new ArrayList();
+       List<Integer> targetList = new ArrayList<Integer>();
 
 //        BufferedReader reader = null;
 //        File file = new File(url);
@@ -155,7 +162,7 @@ public class AppUtilImpl implements AppUtil {
 //        Path path = Paths.get(fileName);
 //
 //        // converting to String list
-//        List<String> targetList = new ArrayList<>();
+//        List<String> targetList = new ArrayList<Integer>();
 //
 //        for (Integer foo : list) {
 //            targetList.add(String.valueOf(foo));

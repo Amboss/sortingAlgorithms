@@ -2,7 +2,10 @@ package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algorithms.impl.LinearAlgorithmsImpl;
+import sortingAlgorithms.algorithms.linear.HeapSort;
+import sortingAlgorithms.algorithms.linear.MergeSort;
+import sortingAlgorithms.algorithms.linear.QuickSort;
+import sortingAlgorithms.algorithms.linear.RadixSort;
 import sortingAlgorithms.util.AppUtil;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -16,11 +19,9 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestLinearAlgorithms {
 
-    private LinearAlgorithms linearAlgorithms = new LinearAlgorithmsImpl();
-
     private AppUtil appUtil = new AppUtilImpl();
 
-    private static ArrayList<Integer> listToMatch = new ArrayList<>();
+    private static ArrayList<Integer> listToMatch = new ArrayList<Integer>();
 
     private static int amount = 20;
 
@@ -41,7 +42,10 @@ public class TestLinearAlgorithms {
     public void test_getHeapSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = linearAlgorithms.getHeapSorting(list);
+
+        SortingAlgorithm algorithm = new HeapSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -53,7 +57,10 @@ public class TestLinearAlgorithms {
     public void test_getQuickSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = linearAlgorithms.getQuickSorting(list);
+
+        SortingAlgorithm algorithm = new QuickSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -65,7 +72,10 @@ public class TestLinearAlgorithms {
     public void test_getRadixSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = linearAlgorithms.getRadixSorting(list);
+
+        SortingAlgorithm algorithm = new RadixSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
@@ -77,7 +87,10 @@ public class TestLinearAlgorithms {
     public void test_getMergeSorting() {
 
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
-        list = linearAlgorithms.getMergeSorting(list);
+
+        SortingAlgorithm algorithm = new MergeSort();
+
+        list = algorithm.sort(list);
 
         assertEquals("FAIL - list must be same,", listToMatch, list);
     }
