@@ -1,8 +1,6 @@
 package sortingAlgorithms.algorithms.linear;
 
 import sortingAlgorithms.algorithms.SortingAlgorithm;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -17,8 +15,6 @@ import java.util.List;
  * Advantages: the algorithm is effective in a large amount of input array (more than 1000).
  */
 public class MergeSort implements SortingAlgorithm {
-
-    AppUtil appUtil = new AppUtilImpl();
 
     // target array
     private Integer[] numbers;

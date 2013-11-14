@@ -3,8 +3,8 @@ package sortingAlgorithms.util.impl;
 import sortingAlgorithms.util.AppUtil;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -33,29 +33,13 @@ public class AppUtilImpl implements AppUtil {
             throw new IllegalArgumentException("Amount or maxRange can't be less then 1!");
         }
 
-        // define ArrayList to hold Integer objects
-        List<Integer> arrayList = new ArrayList<Integer>();
+        Random random = new Random();
 
-        for (int i = 0; i <= maxRange - 1; i++) {
-            arrayList.add(i);
-        }
+        List<Integer> targetList = new ArrayList<>();
 
-        // shuffle list
-        Collections.shuffle(arrayList);
-
-        // adding defined amount of numbers to target list
-        List<Integer> targetList = new ArrayList<Integer>();
         for (int j = 0; j < amount; j++) {
-            targetList.add(arrayList.get(j));
+            targetList.add(random.nextInt(maxRange));
         }
-
-//        Random random = new Random();
-//
-//        // adding defined amount of numbers to target list
-//        List<Integer> targetList = new ArrayList<>();
-//        for (int j = 0; j < amount; j++) {
-//            targetList.add(random.nextInt(maxRange));
-//        }
         return targetList;
     }
 

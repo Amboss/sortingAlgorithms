@@ -1,8 +1,6 @@
 package sortingAlgorithms.algorithms.quadratic;
 
 import sortingAlgorithms.algorithms.SortingAlgorithm;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.List;
 
@@ -14,8 +12,6 @@ import java.util.List;
  * [http://en.wikipedia.org/wiki/Shellsort]
  */
 public class ShellSort implements SortingAlgorithm {
-
-    AppUtil appUtil = new AppUtilImpl();
 
     /**
      * @param list - contain array with unsorted integer values.
@@ -38,6 +34,7 @@ public class ShellSort implements SortingAlgorithm {
             for (i = increment; i < arraySize; i++) {
                 temp = list.get(i);
                 for (j = i; j >= increment; j -= increment) {
+
                     // comparing distant elements
                     if (temp < list.get(j - increment)) {
                         list.set(j, list.get(j - increment));

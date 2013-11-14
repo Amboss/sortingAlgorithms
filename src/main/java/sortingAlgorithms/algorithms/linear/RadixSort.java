@@ -1,8 +1,6 @@
 package sortingAlgorithms.algorithms.linear;
 
 import sortingAlgorithms.algorithms.SortingAlgorithm;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,8 +14,6 @@ import java.util.List;
  */
 public class RadixSort implements SortingAlgorithm {
 
-    AppUtil appUtil = new AppUtilImpl();
-
     /**
      * @param list - contain array with unsorted integer values.
      * @throws IllegalArgumentException
@@ -26,6 +22,7 @@ public class RadixSort implements SortingAlgorithm {
     @Override
     @SuppressWarnings("unchecked")
     public List<Integer> sort(List<Integer> list) {
+
         // checking input parameter for null
         if (list == null) {
             throw new IllegalArgumentException("ArrayList not specified!");

@@ -37,7 +37,7 @@ public class QuickSort implements SortingAlgorithm {
     }
 
     /*
-     * sorting partition for getQuickSorting()
+     * sorting partition
      * @param list - contain array with processed values
      * @param low  - lowest value of list
      * @param high - highest value of list

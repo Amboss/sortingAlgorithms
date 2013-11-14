@@ -8,7 +8,6 @@ import java.util.List;
 public interface SortingAlgorithm {
 
     /**
-     *
      * @param list - contain array with unsorted integer values.
      * @return ArrayList<Integer>
      */
