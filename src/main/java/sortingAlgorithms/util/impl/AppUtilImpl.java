@@ -2,20 +2,16 @@ package sortingAlgorithms.util.impl;
 
 import sortingAlgorithms.util.AppUtil;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Scanner;
 
 /**
  * Implementation of methods for additional functionality.
  */
 public class AppUtilImpl implements AppUtil {
-
-    private final String REGEX = "\\d+(,\\d+)*(\\.\\d+)?";
-
-    private Pattern textPattern = Pattern.compile(REGEX);
 
     /**
      * Get defined amount of random numbers from defined range
@@ -24,10 +20,9 @@ public class AppUtilImpl implements AppUtil {
      * @param maxRange - maximum range of numbers
      * @return ArrayList with amount of numbers
      * @throws IllegalArgumentException
-     *
      */
     @Override
-    public List<Integer> getRandomNumbers(int amount, int maxRange)  {
+    public List<Integer> getRandomNumbers(int amount, int maxRange) {
 
         if (amount < 1 || maxRange < 1) {
             throw new IllegalArgumentException("Amount or maxRange can't be less then 1!");
@@ -46,12 +41,13 @@ public class AppUtilImpl implements AppUtil {
     /**
      * Swapping elements in ArrayList
      *
-     * @param list    - array where replacement have to be made.
-     * @param right  - index of element to be replaced with.
-     * @param left - index of element to be replaced.
-     * @throws RuntimeException
+     * @param list  - array where replacement have to be made.
+     * @param right - index of element to be replaced with.
+     * @param left  - index of element to be replaced.
+     * @throws IllegalArgumentException
      */
-    public void swap(List<Integer> list, int left, int right){
+    @Override
+    public void swap(List<Integer> list, int left, int right) {
 
         // checking input parameter for null
         if (list == null) {
@@ -70,7 +66,7 @@ public class AppUtilImpl implements AppUtil {
      * @throws IllegalArgumentException
      */
     @Override
-    public void printValueToConsole(List<Integer> list){
+    public void printValueToConsole(List<Integer> list) {
 
         // checking input parameter for null
         if (list == null) {
@@ -87,102 +83,94 @@ public class AppUtilImpl implements AppUtil {
     /**
      * Read array from file
      *
-     * @param url - target file with array
+     * @param path - target file with array
      * @return List with amount of numbers
-     * @throws RuntimeException
+     * @throws RuntimeException, IOException
      */
     @Override
-    public List<Integer> loadArrayFromFile(String url){
+    public List<Integer> loadArrayFromFile(String path) {
 
-        if (url == null) {
-            throw new IllegalArgumentException("ERROR: url is not specified!");
+        if (path == null) {
+            throw new IllegalArgumentException("Path is not specified!");
         }
 
-       List<Integer> targetList = new ArrayList<Integer>();
+        List<Integer> list = new ArrayList<Integer>();
 
-//        BufferedReader reader = null;
-//        File file = new File(url);
-//        String text;
-//
-//        try {
-//            // reading content of file
-//            reader = new BufferedReader(new FileReader(file));
-//
-//            //
-//            while (reader.readLine().matches()) {
-//                targetList.add(Integer.parseInt(text));
-//            }
-//        } catch (IOException e) {
-//            throw new RuntimeException("Error occurred wile reading target file!");
-//        } finally {
-//            try {
-//                if (reader != null) {
-//                    reader.close();
-//                }
-//            } catch (IOException ignored) {
-//            }
-//        }
-        return targetList;
+        String line;
+
+        BufferedReader bufferedReader = null;
+
+        try {
+            FileInputStream fileInputStream = new FileInputStream(path);
+
+            // reading the primitive data from the input stream
+            DataInputStream dataInputStream = new DataInputStream(fileInputStream);
+
+            // read data efficiently as characters
+            bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
+
+            // processing the lines in file
+            while ((line = bufferedReader.readLine()) != null) {
+                processLine(line, list);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException("File not found!");
+        } finally {
+
+            // closing bufferedReader
+            try {
+                if (bufferedReader != null) {
+                    bufferedReader.close();
+                }
+            } catch (IOException ignored) {
+            }
+        }
+        return list;
+    }
+
+    /*
+     * Parsing string to integer and add to list
+     * @param line - the line of the file to read the integers from
+     * @return List<Integer>
+     */
+    private List<Integer> processLine(String line, List<Integer> list) {
+
+        Scanner scanner = new Scanner(line); //create scanner for line
+
+        while (scanner.hasNextInt()) {
+            list.add(scanner.nextInt());
+        }
+        return list;
     }
 
     /**
      * Write array to file
      *
-     * @param fileName - name of target file where array must be saved
-     * @param list     - array that have to be saved
+     * @param path - name of target file where array must be saved
+     * @param list - array that have to be saved
      * @throws IllegalArgumentException
      */
     @Override
-    public void saveArrayToFile(String fileName, List<Integer> list){
+    public void saveArrayToFile(String path, List<Integer> list) {
 
         // checking input parameter for null
-        if (fileName == null || list == null) {
+        if (path == null || list == null) {
             throw new IllegalArgumentException("ERROR: url is not specified!");
         }
 
-//        // supporting path and encoding parameters
-//        Charset ENCODING = StandardCharsets.UTF_8;
-//
-//        Path path = Paths.get(fileName);
-//
-//        // converting to String list
-//        List<String> targetList = new ArrayList<Integer>();
-//
-//        for (Integer foo : list) {
-//            targetList.add(String.valueOf(foo));
-//        }
-//
-//        // creating new file with target list
-//        try {
-//            Files.write(path, targetList, ENCODING);
-//        } catch (IOException e) {
-//            throw new RuntimeException("Error occurred while writing " + fileName + " file!");
-//        }
-    }
-
-    /**
-     * Validate content of file
-     *
-     * @param list - target array to be validated
-     * @return boolean
-     * @throws IllegalArgumentException
-     */
-    @Override
-    public boolean validateArrayContent(List<String> list){
-
-        // checking input parameter for null
-        if (list == null) {
-            throw new IllegalArgumentException("array not specified!");
-        }
-
-        boolean foo = true;
-
-        for (String targetValue : list) {
-            Matcher valueMatcher = textPattern.matcher(targetValue);
-            if (!valueMatcher.matches()) {
-                return false;
+        try {
+            File file = new File(path);
+            PrintWriter printWriter = new PrintWriter(file);
+            if (file.exists()) {
+                for (int foo: list) {
+                    printWriter.print(String.valueOf(foo));
+                    printWriter.print(" ");
+                }
             }
+
+            printWriter.close();
+        } catch (IOException e) {
+            throw new RuntimeException("Error while saving to file: " + path);
         }
-        return foo;
     }
 }

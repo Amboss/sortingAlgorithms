@@ -35,10 +35,10 @@ public interface AppUtil {
     /**
      * Read array from file
      *
-     * @param url - target file with array
+     * @param path - target file with array
      * @return List with amount of numbers
      */
-    public List<Integer> loadArrayFromFile(String url);
+    public List<Integer> loadArrayFromFile(String path);
 
     /**
      * Write array to file
@@ -47,12 +47,4 @@ public interface AppUtil {
      * @param list - array that have to be saved
      */
     public void saveArrayToFile(String file, List<Integer> list);
-
-    /**
-     * Validate content of file
-     *
-     * @param list - target array to be validated
-     * @return boolean
-     */
-    public boolean validateArrayContent(List<String> list);
 }
