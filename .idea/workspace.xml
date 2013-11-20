@@ -7,7 +7,7 @@
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975400073" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975450932" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -604,7 +604,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_0f65d050d0c352fd38a0b25d82ee942deb19ef87/bin/git.exe" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -962,7 +962,11 @@
       <created>1384975405446</created>
       <updated>1384975405446</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adding integration test for all app. functionality&#10;">
+      <created>1384975453698</created>
+      <updated>1384975453698</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
