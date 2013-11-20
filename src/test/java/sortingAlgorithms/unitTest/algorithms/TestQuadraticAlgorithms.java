@@ -1,15 +1,14 @@
-package sortingAlgorithms.algorithms;
+package sortingAlgorithms.unitTest.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algorithms.quadratic.BubbleSort;
-import sortingAlgorithms.algorithms.quadratic.InsertSort;
-import sortingAlgorithms.algorithms.quadratic.SelectionSort;
-import sortingAlgorithms.algorithms.quadratic.ShellSort;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
+import sortingAlgorithms.unitTest.algorithms.quadratic.BubbleSort;
+import sortingAlgorithms.unitTest.algorithms.quadratic.InsertSort;
+import sortingAlgorithms.unitTest.algorithms.quadratic.SelectionSort;
+import sortingAlgorithms.unitTest.algorithms.quadratic.ShellSort;
+import sortingAlgorithms.unitTest.util.AppUtil;
+import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,9 +21,9 @@ public class TestQuadraticAlgorithms {
 
     private static AppUtil appUtil = new AppUtilImpl();
 
-    private static List<Integer> sortedList = new ArrayList<Integer>();
+    private static List<Integer> sortedList = null;
 
-    private static List<Integer> testedList = new ArrayList<Integer>();
+    private static List<Integer> testedList = null;
 
     private static int amount = 20;
 

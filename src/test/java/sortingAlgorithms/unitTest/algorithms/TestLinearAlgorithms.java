@@ -1,15 +1,14 @@
-package sortingAlgorithms.algorithms;
+package sortingAlgorithms.unitTest.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.algorithms.linear.HeapSort;
-import sortingAlgorithms.algorithms.linear.MergeSort;
-import sortingAlgorithms.algorithms.linear.QuickSort;
-import sortingAlgorithms.algorithms.linear.RadixSort;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
+import sortingAlgorithms.unitTest.algorithms.linear.HeapSort;
+import sortingAlgorithms.unitTest.algorithms.linear.MergeSort;
+import sortingAlgorithms.unitTest.algorithms.linear.QuickSort;
+import sortingAlgorithms.unitTest.algorithms.linear.RadixSort;
+import sortingAlgorithms.unitTest.util.AppUtil;
+import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -22,9 +21,9 @@ public class TestLinearAlgorithms {
 
     private static AppUtil appUtil = new AppUtilImpl();
 
-    private static List<Integer> sortedList = new ArrayList<Integer>();
+    private static List<Integer> sortedList = null;
 
-    private static List<Integer> testedList = new ArrayList<Integer>();
+    private static List<Integer> testedList = null;
 
     private static int amount = 20;
 

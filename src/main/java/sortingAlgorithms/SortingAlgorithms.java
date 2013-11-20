@@ -1,9 +1,9 @@
 package sortingAlgorithms;
 
-import sortingAlgorithms.algorithms.SortingAlgorithm;
-import sortingAlgorithms.algorithms.quadratic.BubbleSort;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
+import sortingAlgorithms.unitTest.algorithms.SortingAlgorithm;
+import sortingAlgorithms.unitTest.algorithms.quadratic.BubbleSort;
+import sortingAlgorithms.unitTest.util.AppUtil;
+import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
 import java.io.File;
 import java.util.List;

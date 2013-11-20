@@ -1,8 +1,8 @@
-package sortingAlgorithms.algorithms.linear;
+package sortingAlgorithms.unitTest.algorithms.linear;
 
-import sortingAlgorithms.algorithms.SortingAlgorithm;
-import sortingAlgorithms.util.AppUtil;
-import sortingAlgorithms.util.impl.AppUtilImpl;
+import sortingAlgorithms.unitTest.algorithms.SortingAlgorithm;
+import sortingAlgorithms.unitTest.util.AppUtil;
+import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
 import java.util.List;
 

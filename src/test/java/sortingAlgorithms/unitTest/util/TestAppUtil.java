@@ -1,7 +1,7 @@
-package sortingAlgorithms.util;
+package sortingAlgorithms.unitTest.util;
 
 import org.junit.Test;
-import sortingAlgorithms.util.impl.AppUtilImpl;
+import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -23,8 +23,8 @@ public class TestAppUtil {
     @Test
     public void test_getRandomNumbers() {
 
-        Integer amount = 10;
-        Integer maxRange = 10;
+        int amount = 10;
+        int maxRange = 10;
 
         // creating list with specified amount of random numbers
         List<Integer> list = appUtil.getRandomNumbers(amount, maxRange);
