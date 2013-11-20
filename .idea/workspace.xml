@@ -7,7 +7,7 @@
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975379699" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975400073" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -958,7 +958,11 @@
       <created>1384975385751</created>
       <updated>1384975385751</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="adding integration test for all app. functionality&#10;">
+      <created>1384975405446</created>
+      <updated>1384975405446</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
