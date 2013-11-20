@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\SortingAlgorithm.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/SortingAlgorithm.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\linear\HeapSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/HeapSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\linear\MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/MergeSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\linear\QuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/QuickSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\linear\RadixSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/RadixSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\quadratic\BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/quadratic/BubbleSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\quadratic\InsertSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/quadratic/InsertSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\quadratic\SelectionSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/quadratic/SelectionSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\algorithms\quadratic\ShellSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/quadratic/ShellSort.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\util\AppUtil.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppUtil.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\util\impl\AppUtilImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/AppUtilImpl.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\algorithms\TestLinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestLinearAlgorithms.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\algorithms\TestQuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestQuadraticAlgorithms.java" />
-      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\util\TestAppUtil.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestAppUtil.java" />
     </list>
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384948772058" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975379699" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -970,7 +954,11 @@
       <created>1384548052645</created>
       <updated>1384548052645</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="adding integration test for all app. functionality&#10;">
+      <created>1384975385751</created>
+      <updated>1384975385751</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1061,7 +1049,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing application" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding integration test for all app. functionality&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1091,6 +1079,7 @@
     <MESSAGE value="changing algorithms app structure according to comments.." />
     <MESSAGE value="changing JUnit tests for new getRandomNumbers() generator" />
     <MESSAGE value="finishing application" />
+    <MESSAGE value="adding integration test for all app. functionality&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
