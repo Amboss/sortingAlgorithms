@@ -9,6 +9,7 @@ import sortingAlgorithms.unitTest.algorithms.quadratic.ShellSort;
 import sortingAlgorithms.unitTest.util.AppUtil;
 import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -32,7 +33,7 @@ public class TestQuadraticAlgorithms {
     @BeforeClass
     public static void initList() {
         testedList = appUtil.getRandomNumbers(amount, maxRange);
-        sortedList = testedList;
+        sortedList = new ArrayList<Integer>(testedList);
         Collections.sort(sortedList);
     }
 
