@@ -1,6 +1,6 @@
-package sortingAlgorithms.unitTest.algorithms.quadratic;
+package sortingAlgorithms.algorithms.quadratic;
 
-import sortingAlgorithms.unitTest.algorithms.SortingAlgorithm;
+import sortingAlgorithms.algorithms.SortingAlgorithm;
 
 import java.util.List;
 

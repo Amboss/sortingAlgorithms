@@ -1,13 +1,13 @@
-package sortingAlgorithms.unitTest.algorithms;
+package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.unitTest.algorithms.quadratic.BubbleSort;
-import sortingAlgorithms.unitTest.algorithms.quadratic.InsertSort;
-import sortingAlgorithms.unitTest.algorithms.quadratic.SelectionSort;
-import sortingAlgorithms.unitTest.algorithms.quadratic.ShellSort;
-import sortingAlgorithms.unitTest.util.AppUtil;
-import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
+import sortingAlgorithms.algorithms.quadratic.BubbleSort;
+import sortingAlgorithms.algorithms.quadratic.InsertSort;
+import sortingAlgorithms.algorithms.quadratic.SelectionSort;
+import sortingAlgorithms.algorithms.quadratic.ShellSort;
+import sortingAlgorithms.util.AppUtil;
+import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
 import java.util.Collections;

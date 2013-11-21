@@ -1,6 +1,6 @@
-package sortingAlgorithms.unitTest.algorithms.linear;
+package sortingAlgorithms.algorithms.linear;
 
-import sortingAlgorithms.unitTest.algorithms.SortingAlgorithm;
+import sortingAlgorithms.algorithms.SortingAlgorithm;
 
 import java.util.ArrayList;
 import java.util.List;

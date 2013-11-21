@@ -1,6 +1,6 @@
-package sortingAlgorithms.unitTest.util.impl;
+package sortingAlgorithms.util.impl;
 
-import sortingAlgorithms.unitTest.util.AppTimer;
+import sortingAlgorithms.util.AppTimer;
 
 /**
  * Get the time before and after the operation you want to measure,

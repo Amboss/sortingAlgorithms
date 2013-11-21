@@ -1,13 +1,13 @@
-package sortingAlgorithms.unitTest.algorithms;
+package sortingAlgorithms.algorithms;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import sortingAlgorithms.unitTest.algorithms.linear.HeapSort;
-import sortingAlgorithms.unitTest.algorithms.linear.MergeSort;
-import sortingAlgorithms.unitTest.algorithms.linear.QuickSort;
-import sortingAlgorithms.unitTest.algorithms.linear.RadixSort;
-import sortingAlgorithms.unitTest.util.AppUtil;
-import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
+import sortingAlgorithms.algorithms.linear.HeapSort;
+import sortingAlgorithms.algorithms.linear.MergeSort;
+import sortingAlgorithms.algorithms.linear.QuickSort;
+import sortingAlgorithms.algorithms.linear.RadixSort;
+import sortingAlgorithms.util.AppUtil;
+import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.util.ArrayList;
 import java.util.Collections;

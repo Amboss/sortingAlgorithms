@@ -1,6 +1,6 @@
-package sortingAlgorithms.unitTest.util.impl;
+package sortingAlgorithms.util.impl;
 
-import sortingAlgorithms.unitTest.util.AppUtil;
+import sortingAlgorithms.util.AppUtil;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class AppUtilImpl implements AppUtil {
 
         Random random = new Random();
 
-        List<Integer> targetList = new ArrayList<>();
+        List<Integer> targetList = new ArrayList<Integer>();
 
         for (int j = 0; j < amount; j++) {
             targetList.add(random.nextInt(maxRange));

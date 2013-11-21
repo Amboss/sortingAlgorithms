@@ -2,18 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/Timer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testFile.txt" afterPath="$PROJECT_DIR$/testFile.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\SortingAlgorithm.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/SortingAlgorithm.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\linear\HeapSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/HeapSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\linear\MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/MergeSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\linear\QuickSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/QuickSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\linear\RadixSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/RadixSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\quadratic\BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/quadratic/BubbleSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\quadratic\InsertSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/quadratic/InsertSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\quadratic\SelectionSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/quadratic/SelectionSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\algorithms\quadratic\ShellSort.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/quadratic/ShellSort.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\util\AppTimer.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppTimer.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\util\AppUtil.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\util\impl\AppUtilImpl.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\main\java\sortingAlgorithms\unitTest\util\impl\Timer.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/Timer.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\unitTest\algorithms\TestLinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\unitTest\algorithms\TestQuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\unitTest\util\TestAppUtil.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java" />
+      <change type="MOVED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src\test\java\sortingAlgorithms\unitTest\util\TestTimer.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java" />
     </list>
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385039704983" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385049345283" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -22,11 +37,11 @@
     <file path="/AppUtilImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384547034558" ignored="false" />
     <file path="/AppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384951242266" ignored="false" />
     <file path="/TestAppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384952535924" ignored="false" />
-    <file path="/SortingAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385047834551" ignored="false" />
+    <file path="/SortingAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385065860628" ignored="false" />
     <file path="/pom.xml" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384017309808" ignored="false" />
     <file path="/TestQuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384703009698" ignored="false" />
     <file path="/TestLinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975751641" ignored="false" />
-    <file path="/fragment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384951379910" ignored="false" />
+    <file path="/fragment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385054439440" ignored="false" />
     <file path="/HeapSort.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384459843649" ignored="false" />
     <file path="/.gitignore" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384117355774" ignored="false" />
     <file path="/MergeSortImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384202867635" ignored="false" />
@@ -39,6 +54,8 @@
     <file path="/AppTimer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385049298493" ignored="false" />
     <file path="/Timer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385048769912" ignored="false" />
     <file path="/TestTimer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385049277376" ignored="false" />
+    <file path="/Experiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385066896557" ignored="false" />
+    <file path="/AppExperiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385054580610" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,20 +119,16 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="TestAllFunctionality.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+          <file leaf-file-name="Experiment.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="65" selection-start="2996" selection-end="3053" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AppTimer.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppTimer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="36" selection-start="448" selection-end="448" vertical-scroll-proportion="0.4862486">
-                  <folding />
+                <state line="160" column="22" selection-start="5215" selection-end="5215" vertical-scroll-proportion="0.29799107">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#3933#3939#0" expanded="true" />
+                    <element signature="e#4103#4112#0" expanded="true" />
+                    <element signature="e#6671#6689#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -124,31 +137,22 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="19" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Timer.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/Timer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="27" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestTimer.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestTimer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="44" selection-start="633" selection-end="633" vertical-scroll-proportion="0.5049505">
+                <state line="13" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.2431243">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestAllFunctionality.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="46" column="26" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -173,9 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/algorithms/linear/MergeSort.java" />
-        <option value="$PROJECT_DIR$/testFile.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
@@ -185,10 +186,13 @@
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestLinearAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestQuadraticAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/Timer.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppTimer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java" />
       </list>
     </option>
   </component>
@@ -290,45 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,6 +342,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -411,10 +407,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -445,10 +437,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -486,7 +474,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -517,10 +565,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -555,10 +599,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sortingAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unitTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -601,16 +641,16 @@
       <recent name="D:\JAVAprojects\desckTopApp\sortingAlgorithms\src" />
       <recent name="D:\JAVAprojects\desckTopApp\sortingAlgorithms" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="sortingAlgorithms.unitTest" />
-      <recent name="sortingAlgorithms" />
-      <recent name="sortingAlgorithms.algoritms" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVAprojects\desckTopApp\sortingAlgorithms" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sortingAlgorithms" />
+      <recent name="sortingAlgorithms.unitTest" />
+      <recent name="sortingAlgorithms.algoritms" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTimer.test_timer">
+  <component name="RunManager" selected="Application.SortingAlgorithms">
     <configuration default="false" name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.SortingAlgorithms" />
       <option name="VM_PARAMETERS" />
@@ -709,8 +749,8 @@
       <module name="sortingAlgorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithms.unitTest.util" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.unitTest.util.TestTimer" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithms.util" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.util.TestTimer" />
       <option name="METHOD_NAME" value="test_timer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -824,8 +864,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestTimer.test_timer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SortingAlgorithms" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SortingAlgorithms" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTimer.test_timer" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.All in sortingAlgorithms" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality.test_allFunctionality" />
@@ -953,7 +993,11 @@
       <created>1384975845974</created>
       <updated>1384975845974</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adding application timer">
+      <created>1385049354482</created>
+      <updated>1385049354482</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -994,8 +1038,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.257754" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18996799" sideWeight="0.6877005" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31229946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15314835" sideWeight="0.5860962" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41390374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1044,7 +1088,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcting initialisation of arrayList to proper way for copying List" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding application timer" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1076,6 +1120,7 @@
     <MESSAGE value="finishing application" />
     <MESSAGE value="adding integration test for all app. functionality&#10;" />
     <MESSAGE value="correcting initialisation of arrayList to proper way for copying List" />
+    <MESSAGE value="adding application timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1085,11 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="-0.50273824" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="745" column="11" selection-start="29332" selection-end="29332" vertical-scroll-proportion="0.33333334" />
@@ -1100,86 +1140,90 @@
         <state line="152" column="71" selection-start="6719" selection-end="6719" vertical-scroll-proportion="0.3325893" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/linear/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.56567425" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="13" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.33225283" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="65" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.889989" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/algorithms/quadratic/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.28932893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestAppUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="42" selection-start="1800" selection-end="1800" vertical-scroll-proportion="1.3278328" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/AppUtilImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="27" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestLinearAlgorithms.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="50" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestQuadraticAlgorithms.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="79" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.26015368">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="65" selection-start="2996" selection-end="3053" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="19" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="27" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="633" selection-end="633" vertical-scroll-proportion="0.5049505">
+        <state line="6" column="3" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11221122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppTimer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="448" selection-end="448" vertical-scroll-proportion="0.4862486">
+        <state line="16" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.29922992">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="391" selection-end="498" vertical-scroll-proportion="0.1771177">
+          <folding>
+            <element signature="e#912#921#0" expanded="true" />
+            <element signature="e#2642#2651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="26" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="63" selection-start="919" selection-end="919" vertical-scroll-proportion="0.6171617">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="22" selection-start="5215" selection-end="5215" vertical-scroll-proportion="0.29799107">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3933#3939#0" expanded="true" />
+            <element signature="e#4103#4112#0" expanded="true" />
+            <element signature="e#6671#6689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.2431243">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

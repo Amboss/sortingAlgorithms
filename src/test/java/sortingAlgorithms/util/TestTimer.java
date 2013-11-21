@@ -1,7 +1,7 @@
-package sortingAlgorithms.unitTest.util;
+package sortingAlgorithms.util;
 
 import org.junit.Test;
-import sortingAlgorithms.unitTest.util.impl.Timer;
+import sortingAlgorithms.util.impl.Timer;
 
 import static org.junit.Assert.assertNotNull;
 

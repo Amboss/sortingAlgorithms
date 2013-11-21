@@ -1,7 +1,7 @@
-package sortingAlgorithms.unitTest.util;
+package sortingAlgorithms.util;
 
 import org.junit.Test;
-import sortingAlgorithms.unitTest.util.impl.AppUtilImpl;
+import sortingAlgorithms.util.impl.AppUtilImpl;
 
 import java.io.File;
 import java.util.ArrayList;

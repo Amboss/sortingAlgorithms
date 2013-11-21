@@ -1,4 +1,4 @@
-package sortingAlgorithms.unitTest.algorithms;
+package sortingAlgorithms.algorithms;
 
 import java.util.List;
 

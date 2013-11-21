@@ -1,4 +1,4 @@
-package sortingAlgorithms.unitTest.util;
+package sortingAlgorithms.util;
 
 /**
  * Get the time before and after the operation you want to measure,
