@@ -125,7 +125,7 @@ public class TestAllFunctionality {
 
                 // sorting list and asserting for equal value
                 List<Integer> sortedListFromFile = algorithm.sort(unsortedListFormFile);
-                assertEquals("FAIL - list size must be same,", sortedList, sortedListFromFile);
+                assertEquals("FAIL - list must contain same digits,", sortedList, sortedListFromFile);
 
                 // saving testedList to new file
                 appUtil.saveArrayToFile(sortedFilePath, sortedListFromFile);
