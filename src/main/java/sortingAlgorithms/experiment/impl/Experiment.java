@@ -16,6 +16,8 @@ import sortingAlgorithms.util.impl.AppUtilImpl;
 import sortingAlgorithms.util.impl.Timer;
 
 import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Class represents state and behavior of experiment object
@@ -25,6 +27,10 @@ public class Experiment implements AppExperiment {
     private AppUtil appUtil = new AppUtilImpl();
 
     private AppTimer appTimer = new Timer();
+
+    private static final int MYTHREADS = 8;
+
+    private ExecutorService executor = null;
 
     /*
      * settings[0] = amount;
@@ -49,14 +55,14 @@ public class Experiment implements AppExperiment {
         setPause(2);
 
         // determine the amount of list
-        System.out.printf("\n%s", "Please enter the amount of numbers to be tested: ");
+        System.out.printf("\n%s", "Please enter the amount of numbers to be tested: \n");
         scanner = new Scanner(System.in);
         settings[0] = scanner.nextInt();
         System.out.printf("\n%s: %d", "Amount", settings[0]);
         setPause(2);
 
         // determine the maxRange of list
-        System.out.printf("\n%s", "Please enter the max range: ");
+        System.out.printf("\n%s", "Please enter the max range: \n");
         settings[1] = scanner.nextInt();
         if (settings[1] >= settings[0]) {
             System.out.printf("\n%s: %d", "MaxRange", settings[1]);
@@ -67,12 +73,10 @@ public class Experiment implements AppExperiment {
         }
 
         // determine the amount of iterations
-        System.out.printf("\n%s", "Please enter the amount of iterations: ");
+        System.out.printf("\n%s", "Please enter the amount of iterations: \n");
         settings[2] = scanner.nextInt();
         System.out.printf("\n%s: %d", "iterations", settings[2]);
         setPause(2);
-
-
 
         if (scanner != null) {
             scanner.close();
@@ -81,7 +85,9 @@ public class Experiment implements AppExperiment {
     }
 
     /**
-     * Start experiment
+     * Start of experiment: each algorithm, specified in the list, will perform sorting for specified
+     * number of iterations. Each sorting period will be measured and average statistical time (in
+     * milliseconds) will be displayed for each algorithm at the end of experiment.
      *
      * @param amount   - defined amount of random numbers
      * @param maxRange - maximum range of numbers
@@ -90,9 +96,10 @@ public class Experiment implements AppExperiment {
      */
     @Override
     public Map<String, Long> startExperiment(int amount, int maxRange,
-                                             int iterations, List<SortingAlgorithm> list) {
+                                             final int iterations, List<SortingAlgorithm> list) {
 
         System.out.printf("\n%s", "Starting experiment");
+        setPause(2);
 
         // parameters check
         if (amount == 0 || maxRange == 0 || iterations == 0) {
@@ -110,6 +117,11 @@ public class Experiment implements AppExperiment {
             list = initAllAlgorithms();
         }
 
+        final List<SortingAlgorithm> finalList = list;
+
+        // initiating executor
+        executor = Executors.newFixedThreadPool(MYTHREADS);
+
         // generating list of unsorted random numbers
         targetList = appUtil.getRandomNumbers(amount, maxRange);
 
@@ -118,33 +130,48 @@ public class Experiment implements AppExperiment {
 
         // iteration of list with algorithms objects
         System.out.printf("\n%s", "Measuring ...\n");
-        for (SortingAlgorithm foo : list) {
 
-            List<Long> timerResultList = new ArrayList<Long>();
+        // starting multiple threads to speed processing
+        for (final SortingAlgorithm foo : finalList) {
+            executor.submit(new Runnable() {
+                @Override
+                public void run() {
 
-            // iteration to get average time result
-            for (int i = 1; i <= iterations; i++) {
+                    // init list for results for current algorithm
+                    List<Long> timerResultList = new ArrayList<Long>();
 
-                List<Integer> testList = new ArrayList<Integer>(targetList);
-                appTimer.start();
-                foo.sort(testList);
-                appTimer.stop();
+                    // iteration to get average time result
+                    for (int i = 1; i <= iterations; i++) {
 
-                // saving current result to list
-                timerResultList.add(appTimer.getTotalTime());
-            }
+                        List<Integer> testList = new ArrayList<Integer>(targetList);
+                        appTimer.start();
+                        foo.sort(testList);
+                        appTimer.stop();
 
-            // saving average time per algorithm type
-            String currentClassName = foo.getClass().getName();
-            resultMap.put(currentClassName, getAverageStatistical(timerResultList));
-            System.out.printf("\n\t%s", "completed for: " + currentClassName);
+                        // saving current result to list
+                        timerResultList.add(appTimer.getTotalTime());
+                    }
+
+                    // saving average time per algorithm type
+                    String currentClassName = foo.getClass().getName();
+                    resultMap.put(currentClassName, getAverageStatistical(timerResultList));
+                    System.out.printf("\n\t%s", "completed for: " + currentClassName);
+                } // run()
+            }); // executor
+        } // for
+        executor.shutdown();
+
+        // Wait until all threads are finish
+        while (!executor.isTerminated()) {
+
         }
+
         System.out.printf("\n%s", "Experiment completed\n");
         return resultMap;
     }
 
     /**
-     * Show result of experiment to console
+     * Show result of experiment in console
      *
      * @param map - contains average results for each algorithm
      */
@@ -167,7 +194,6 @@ public class Experiment implements AppExperiment {
                 it.remove();
                 setPause(1);
             }
-
         }
     }
 
@@ -215,6 +241,7 @@ public class Experiment implements AppExperiment {
     private List<SortingAlgorithm> initAllAlgorithms() {
 
         System.out.printf("\n%s", "Initiating SortingAlgorithms");
+        setPause(2);
 
         List<SortingAlgorithm> algorithmList = new ArrayList<SortingAlgorithm>();
 
