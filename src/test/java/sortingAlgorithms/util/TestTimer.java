@@ -1,5 +1,6 @@
 package sortingAlgorithms.util;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import sortingAlgorithms.util.impl.Timer;
 
@@ -10,10 +11,18 @@ import static org.junit.Assert.assertNotNull;
  */
 public class TestTimer {
 
-    private static AppTimer appTimer = new Timer();
+    private static AppTimer appTimer = null;
 
     /**
-     *  testing all Timer functionality
+     * Initialisation
+     */
+    @BeforeClass
+    public static void initExperiment() {
+        appTimer = new Timer();
+    }
+
+    /**
+     *  Testing all Timer functionality
      */
     @Test
     public void test_timer() {
@@ -35,7 +44,6 @@ public class TestTimer {
 
         appTimer.stop();
         assertNotNull("Fail - appTimer must contain start time", appTimer.getStopTime());
-
         assertNotNull("Fail - appTimer must contain start time", appTimer.getTotalTime());
     }
 }

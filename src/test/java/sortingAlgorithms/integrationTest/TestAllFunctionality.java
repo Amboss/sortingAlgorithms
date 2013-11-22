@@ -27,7 +27,7 @@ import static org.junit.Assert.*;
  */
 public class TestAllFunctionality {
 
-    private static AppUtil appUtil = new AppUtilImpl();
+    private static AppUtil appUtil = null;
 
     private static List<SortingAlgorithm> algorithmList = null;
 
@@ -47,6 +47,7 @@ public class TestAllFunctionality {
     @BeforeClass
     public static void init_allAlgorithms() {
 
+        appUtil = new AppUtilImpl();
         algorithmList = new ArrayList<SortingAlgorithm>();
 
         // initiation of linear algorithms

@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestLinearAlgorithms {
 
-    private static AppUtil appUtil = new AppUtilImpl();
+    private static AppUtil appUtil = null;
 
     private static List<Integer> sortedList = null;
 
@@ -32,6 +32,7 @@ public class TestLinearAlgorithms {
 
     @BeforeClass
     public static void initList() {
+        appUtil = new AppUtilImpl();
         testedList = appUtil.getRandomNumbers(amount, maxRange);
         sortedList = new ArrayList<Integer>(testedList);
         Collections.sort(sortedList);

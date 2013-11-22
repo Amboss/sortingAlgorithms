@@ -202,7 +202,7 @@ public class Experiment implements AppExperiment {
      *
      * @param seconds - value in seconds
      */
-    private void setPause(int seconds) {
+    public void setPause(int seconds) {
 
         try {
             Thread.sleep(seconds * 1000);
@@ -217,7 +217,7 @@ public class Experiment implements AppExperiment {
      * @param list - contain list of results from all iterations
      * @return Long
      */
-    private Long getAverageStatistical(List<Long> list) {
+    public Long getAverageStatistical(List<Long> list) {
 
         // parameters check
         if (list == null) {
@@ -238,7 +238,7 @@ public class Experiment implements AppExperiment {
      *
      * @return List<SortingAlgorithm>
      */
-    private List<SortingAlgorithm> initAllAlgorithms() {
+    public List<SortingAlgorithm> initAllAlgorithms() {
 
         System.out.printf("\n%s", "Initiating SortingAlgorithms");
         setPause(2);

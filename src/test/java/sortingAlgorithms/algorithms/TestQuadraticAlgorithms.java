@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestQuadraticAlgorithms {
 
-    private static AppUtil appUtil = new AppUtilImpl();
+    private static AppUtil appUtil = null;
 
     private static List<Integer> sortedList = null;
 
@@ -32,6 +32,7 @@ public class TestQuadraticAlgorithms {
 
     @BeforeClass
     public static void initList() {
+        appUtil = new AppUtilImpl();
         testedList = appUtil.getRandomNumbers(amount, maxRange);
         sortedList = new ArrayList<Integer>(testedList);
         Collections.sort(sortedList);

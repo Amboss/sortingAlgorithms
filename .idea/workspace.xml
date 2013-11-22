@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/experiment/TestExperiment.java" />
+      <change type="DELETED" beforePath="D:\JAVAprojects\desckTopApp\sortingAlgorithms\testFile.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java" afterPath="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java" afterPath="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c5ee2dcf-e61b-4ccf-8786-dabc61eb1f4e" name="New changelist" comment="" />
     <ignored path="sortingAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385135829272" ignored="false" />
+    <file path="/Dummy.txt" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385152463662" ignored="false" />
     <file path="/README.md" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384005055295" ignored="false" />
     <file path="/LinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384105939811" ignored="false" />
     <file path="/QuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384359052076" ignored="false" />
@@ -16,11 +23,11 @@
     <file path="/LinearAlgorithmsImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384361570838" ignored="false" />
     <file path="/AppUtilImpl.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384547034558" ignored="false" />
     <file path="/AppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384951242266" ignored="false" />
-    <file path="/TestAppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384952535924" ignored="false" />
+    <file path="/TestAppUtil.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385155484457" ignored="false" />
     <file path="/SortingAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385065860628" ignored="false" />
     <file path="/pom.xml" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384017309808" ignored="false" />
-    <file path="/TestQuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384703009698" ignored="false" />
-    <file path="/TestLinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384975751641" ignored="false" />
+    <file path="/TestQuadraticAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385142044582" ignored="false" />
+    <file path="/TestLinearAlgorithms.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385142060844" ignored="false" />
     <file path="/fragment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385054439440" ignored="false" />
     <file path="/HeapSort.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384459843649" ignored="false" />
     <file path="/.gitignore" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384117355774" ignored="false" />
@@ -30,13 +37,14 @@
     <file path="/BubbleSort.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384459063613" ignored="false" />
     <file path="/MergeSort.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384461390282" ignored="false" />
     <file path="/RadixSort.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384461868168" ignored="false" />
-    <file path="/TestAllFunctionality.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1384978346770" ignored="false" />
+    <file path="/TestAllFunctionality.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385142020620" ignored="false" />
     <file path="/AppTimer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385049298493" ignored="false" />
     <file path="/Timer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385048769912" ignored="false" />
-    <file path="/TestTimer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385049277376" ignored="false" />
-    <file path="/Experiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385140488716" ignored="false" />
+    <file path="/TestTimer.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385141982356" ignored="false" />
+    <file path="/Experiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385149407574" ignored="false" />
     <file path="/AppExperiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385054580610" ignored="false" />
     <file path="/AppRunnable.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385137999224" ignored="false" />
+    <file path="/TestExperiment.java" changelist="3dad9696-e0c4-4dfa-b7ad-dbc03d0d934a" time="1385155271147" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,17 +105,17 @@
     <favorites_list name="sortingAlgorithms" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49399114">
       <split-first>
         <leaf>
-          <file leaf-file-name="Experiment.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Experiment.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="133" column="56" selection-start="4470" selection-end="4506" vertical-scroll-proportion="1.5122768">
+                <state line="192" column="102" selection-start="6616" selection-end="6628" vertical-scroll-proportion="0.85379463">
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#4590#5648#0" expanded="true" />
-                    <element signature="e#5624#5625#0" expanded="true" />
+                    <element signature="e#4799#4805#0" expanded="true" />
+                    <element signature="e#4993#5002#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -117,10 +125,52 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SortingAlgorithms.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="22" selection-start="342" selection-end="342" vertical-scroll-proportion="0.22442244">
+                <state line="24" column="37" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestExperiment.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/experiment/TestExperiment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="38" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1670#1676#0" expanded="true" />
+                    <element signature="e#2304#2322#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestAppUtil.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="19" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestTimer.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="18" selection-start="364" selection-end="364" vertical-scroll-proportion="0.32673267">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestAllFunctionality.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="47" column="61" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -146,22 +196,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/integrationTest/TestAllFunctionality.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestAppUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestLinearAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/algorithms/TestQuadraticAlgorithms.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/impl/Timer.java" />
         <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/unitTest/util/TestTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/unitTest/util/AppTimer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/impl/AppUtilImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/AppRunnable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/experiment/TestExperiment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java" />
       </list>
     </option>
   </component>
@@ -218,8 +268,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +343,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="integrationTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="experiment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,6 +660,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,12 +678,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -619,35 +699,57 @@
       <recent name="sortingAlgorithms.algoritms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingAlgorithms">
-    <configuration default="false" name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.SortingAlgorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="JUnit.All in sortingAlgorithms">
+    <configuration default="false" name="TestExperiment.test_getAverageStatistical" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="sortingAlgorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithms.experiment" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.experiment.TestExperiment" />
+      <option name="METHOD_NAME" value="test_getAverageStatistical" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sortingAlgorithms" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
+      <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestAllFunctionality" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestExperiment.test_setPause" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="sortingAlgorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithms.integrationTest" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.integrationTest.TestAllFunctionality" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithms.experiment" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.experiment.TestExperiment" />
+      <option name="METHOD_NAME" value="test_setPause" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestExperiment" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="sortingAlgorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithms.experiment" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.experiment.TestExperiment" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -660,23 +762,17 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestAllFunctionality.test_allFunctionality" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestExperiment.test_showResultsOfExperiment" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="sortingAlgorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithms.integrationTest" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.integrationTest.TestAllFunctionality" />
-      <option name="METHOD_NAME" value="test_allFunctionality" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithms.experiment" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.experiment.TestExperiment" />
+      <option name="METHOD_NAME" value="test_showResultsOfExperiment" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -714,28 +810,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestTimer.test_timer" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="sortingAlgorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithms.util" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithms.util.TestTimer" />
-      <option name="METHOD_NAME" value="test_timer" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -748,19 +822,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -788,6 +849,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -825,19 +899,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SortingAlgorithms" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality.test_allFunctionality" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in sortingAlgorithms" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestTimer.test_timer" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_getAverageStatistical" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_setPause" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestExperiment" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_showResultsOfExperiment" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in sortingAlgorithms" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortingAlgorithms" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestTimer.test_timer" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in sortingAlgorithms" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestAllFunctionality.test_allFunctionality" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in sortingAlgorithms" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestExperiment" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_showResultsOfExperiment" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_setPause" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestExperiment.test_getAverageStatistical" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -970,7 +1044,11 @@
       <created>1385067270564</created>
       <updated>1385067270564</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="adding multiple threads to speed processing">
+      <created>1385140516737</created>
+      <updated>1385140516737</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1010,8 +1088,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.257754" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15635005" sideWeight="0.43101603" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.568984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15795091" sideWeight="0.64812833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35187167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1061,7 +1139,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding experiment module" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding multiple threads to speed processing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1095,6 +1173,7 @@
     <MESSAGE value="correcting initialisation of arrayList to proper way for copying List" />
     <MESSAGE value="adding application timer" />
     <MESSAGE value="adding experiment module" />
+    <MESSAGE value="adding multiple threads to speed processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1104,17 +1183,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="44" selection-start="5567" selection-end="5567" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4590#5648#0" expanded="true" />
-            <element signature="e#5624#5625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1137,34 +1205,6 @@
         <state line="55" column="13" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.33225283" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="42" selection-start="1800" selection-end="1800" vertical-scroll-proportion="1.3278328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="50" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="79" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.26015368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="163" selection-end="163" vertical-scroll-proportion="0.11221122">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="0.29922992">
@@ -1182,16 +1222,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestLinearAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.0">
+        <state line="34" column="12" selection-start="888" selection-end="888" vertical-scroll-proportion="0.39273927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/algorithms/TestQuadraticAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="60" selection-start="848" selection-end="848" vertical-scroll-proportion="0.33663365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/util/AppTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="16" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/AppExperiment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="63" selection-start="919" selection-end="919" vertical-scroll-proportion="0.6171617">
+        <state line="25" column="27" selection-start="585" selection-end="589" vertical-scroll-proportion="0.46754676">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,18 +1254,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/SortingAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="342" selection-end="342" vertical-scroll-proportion="0.22442244">
+        <state line="24" column="37" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/integrationTest/TestAllFunctionality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="61" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortingAlgorithms/experiment/impl/Experiment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="56" selection-start="4470" selection-end="4506" vertical-scroll-proportion="1.5122768">
+        <state line="192" column="102" selection-start="6616" selection-end="6628" vertical-scroll-proportion="0.85379463">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4590#5648#0" expanded="true" />
-            <element signature="e#5624#5625#0" expanded="true" />
+            <element signature="e#4799#4805#0" expanded="true" />
+            <element signature="e#4993#5002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/experiment/TestExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="38" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1676#0" expanded="true" />
+            <element signature="e#2304#2322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestAppUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sortingAlgorithms/util/TestTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="18" selection-start="364" selection-end="364" vertical-scroll-proportion="0.32673267">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

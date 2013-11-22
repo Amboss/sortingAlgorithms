@@ -1,5 +1,6 @@
 package sortingAlgorithms.util;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import sortingAlgorithms.util.impl.AppUtilImpl;
 
@@ -15,7 +16,15 @@ import static org.junit.Assert.assertTrue;
  */
 public class TestAppUtil {
 
-    private AppUtil appUtil = new AppUtilImpl();
+    private static AppUtil appUtil = null;
+
+    /**
+     * Initialisation
+     */
+    @BeforeClass
+    public static void initExperiment() {
+        appUtil = new AppUtilImpl();
+    }
 
     /**
      * Testing getRandomNumbers() method
